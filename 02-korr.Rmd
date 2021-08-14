@@ -1,0 +1,14 @@
+# Effizientes Korrigieren
+
+Hier zeige ich dir, wie du schneller Artikel korrigierst.
+
+## Methode, um schnell & effizient Korrekturen vorzunehmen
+
+Wenn mir Tee seine Texte zu korrgieren gibt, solltest du die folgenden Programme immer offen & bereit haben, **um so wenig Zeit wie möglich zu verlieren**:
+
+- [Deepl](https://www.deepl.com/translator), für das schnelle Übersetzen von Texten.
+- [Leo Wörterbuch](https://dict.leo.org/französisch-deutsch/), für präzise Übersetzung.
+- [Das Audio-Lexikon](https://www.fairaudio.de/lexikon/) für technische Details über Audio.
+- [Öffne das Markdown-File für Synonyme & Fachwörter](./index.html), welches du selbst erstellt hast, um häufig auftauchende Probleme - z.B. bessere Wörter, genauere Ausdrücke oder Beschreibungen etc. - schneller zu regeln.
+  - <u>Achtung</u>: Öffne dieses File nicht als Markdown, sondern als HTML-File, sonst wirst du eine Error-Message erhalten, wenn du es "knittest"!
+- Deine Email, wenn Tee dir neue / alternative Versionen schickt.
