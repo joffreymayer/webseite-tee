@@ -1,6 +1,6 @@
 --- 
 title: "Tee's AD-Webseite"
-author: "YOUR NAME HERE"
+author: "Joffrey Anthony"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
