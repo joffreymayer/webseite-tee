@@ -1,0 +1,6 @@
+# Youtube
+
+## Video-Bearbeitungs-Software
+
+- Free to use: [Davinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/)
+- Kostenpflichtig: [Final Cut Pro](https://www.apple.com/de/final-cut-pro/)
