@@ -16,3 +16,6 @@ youtube
 video-bearbeitungs-software
 copy-right
 nützliche-webseiten
+gimp
+nützliches-wissen
+verwendete-einstellungen

@@ -8,6 +8,7 @@ Wenn mir Tee seine Texte zu korrgieren gibt, solltest du die folgenden Programme
 
 - [Deepl](https://www.deepl.com/translator), für das schnelle Übersetzen von Texten.
 - [Leo Wörterbuch](https://dict.leo.org/französisch-deutsch/), für präzise Übersetzung.
+- [Wordtune](https://www.wordtune.com/#rewrite-demo), für Umformulierungen.
 - [Das Audio-Lexikon](https://www.fairaudio.de/lexikon/) für technische Details über Audio.
 - [Öffne das Markdown-File für Synonyme & Fachwörter](./index.html), welches du selbst erstellt hast, um häufig auftauchende Probleme - z.B. bessere Wörter, genauere Ausdrücke oder Beschreibungen etc. - schneller zu regeln.
   - <u>Achtung</u>: Öffne dieses File nicht als Markdown, sondern als HTML-File, sonst wirst du eine Error-Message erhalten, wenn du es "knittest"!

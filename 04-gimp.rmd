@@ -1,0 +1,18 @@
+# GIMP
+
+## Nützliches Wissen
+
+- Wenn du ein Bild auf- oder abskalierst, dann verlierst du automatisch an Auflösung.
+
+## Verwendete Einstellungen
+
+In diesem File gebe ich Dir diverse Angaben zu **meinen Einstellungen**, welche ich für die Bildbearbeitungen verwende:
+
+![Die 4 Standardfarben, welche ich für die Titel verwende](./bilder/verwendete-farben.jpg)
+
+- <u>Code der verwendeten Farben</u>:
+
+  - **<u>Grün</u>**: 9df068
+  - **<u>Gelb</u>**: fff068
+  - **<u>Blau</u>**: 3bcace
+  - **<u>Rot</u>**: ff0000

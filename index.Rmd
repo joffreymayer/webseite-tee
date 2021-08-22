@@ -55,6 +55,7 @@ In diesem Template, werde ich dir mein Cheat-Sheet zum Verfassen eines Artikels 
         - Die Scala Utopia EVO verfügt über eine extreme Homogenität: abgrundtiefe Bässe, organische Mitten und seidige Höhen charakterisieren den Lautsprecher.
         - Die Box zeichnet sich durch messerscharfe Präzision aus, ohne dabei der Musikalität zu schaden.
         - Auch bei der Stimmen-Wiedergabe zeigt sich die Focal Viva Utopia EVO faszinierend. Voll, packend und mit einer sehr neutral abgestimmten Tonalität serviert Ihnen dieser Lautsprecher eine Salve feinster Musikdetails.
+        - Verantwortlich für die hochakkurate Transparenz und Klarheit sind die extrem tiefen Verzerrungswerte (0.00025%), sowie der kaum messbare Rauschabstandswert (-130 dB). Der Musikfluss wird dadurch messerscharf und das Gefühl, buchstäblich in die Musik einzutauchen, wird vermittelt.
         
 ## Marken-Artikel
 
@@ -92,6 +93,7 @@ In diesem Template, werde ich dir mein Cheat-Sheet zum Verfassen eines Artikels 
 ## Synonyme
 
 - als Erstes = zuerst
+- Audiophile = Musikbegeisterte = High-Ender
 - Auszeichnung = Preis = Dekorierung = Anerkennung = Medaille
 - beschreiben = charakterisieren = ausdrücken = darstellen
 - billig = erschwinlich
@@ -101,8 +103,12 @@ In diesem Template, werde ich dir mein Cheat-Sheet zum Verfassen eines Artikels 
 - Fingerspitzengefühl = Gespür
 - förmlich = buchstäblich = geradezu = praktisch
 - garantieren = sicherstellen
+- Geburt = Aufkommen
+- gleichzeitig = simultan = zugleich
 - Gründer = Eigner
 - in der Lage sein = imstande sein = fähig sein
+- Integration = Einbau
+- kompakt = schlicht
 - konstant = gleichbleibend
 - Magazin = Revue = Zeitschrift = Heft 
 - Preisinflation in der Hifi = Audiophile Wahnsinn
@@ -119,7 +125,8 @@ In diesem Template, werde ich dir mein Cheat-Sheet zum Verfassen eines Artikels 
 ## Ausdrücke
 
 - ein Flair für den Lautsprecherbau besitzen = ein Gespür für den Lautsprecherbau besitzen
-- 
+- vereinfacht ausgedrückt = salopp ausgedrückt
+
 
 ## Grammatik
 
@@ -168,7 +175,7 @@ Hier eine Auflistung aller grammatikalischen Punkte, bei denen ich schon Problem
 - **arbiträr** = beliebig, willkürlich
 - argusäugig = scharf beobachtend, wachsam
 - arkan = geheim, nicht zugänglich
-- arriviert = **angesehen**, **etabliert**
+- arriviert = **angesehen**, **etabliert**, **sich profilieren**
 - **banal** = nichts Besonderes, alltäglich, gewöhnlich
 - bigott = frömmelnd, scheinheilig
 - **brachial** = handgreiflich, mit roher Körperkraft
