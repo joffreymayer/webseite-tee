@@ -56,6 +56,8 @@ In diesem Template, werde ich dir mein Cheat-Sheet zum Verfassen eines Artikels 
         - Die Box zeichnet sich durch messerscharfe Präzision aus, ohne dabei der Musikalität zu schaden.
         - Auch bei der Stimmen-Wiedergabe zeigt sich die Focal Viva Utopia EVO faszinierend. Voll, packend und mit einer sehr neutral abgestimmten Tonalität serviert Ihnen dieser Lautsprecher eine Salve feinster Musikdetails.
         - Verantwortlich für die hochakkurate Transparenz und Klarheit sind die extrem tiefen Verzerrungswerte (0.00025%), sowie der kaum messbare Rauschabstandswert (-130 dB). Der Musikfluss wird dadurch messerscharf und das Gefühl, buchstäblich in die Musik einzutauchen, wird vermittelt.
+        - Die beiden Medium-Treiber - ausgestattet mit letzter "TMD-Technologie" und fantastisch leistungsfähigen Beryllium-Hochtönern - 
+zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
         
 ## Marken-Artikel
 
@@ -98,6 +100,7 @@ In diesem Template, werde ich dir mein Cheat-Sheet zum Verfassen eines Artikels 
 - beschreiben = charakterisieren = ausdrücken = darstellen
 - billig = erschwinlich
 - Eigenschaft = Merkmal = Charakteristiken = Besonderheiten
+- Eindruck = Empfindung = Wahrnehmung = Anschein = Gefühl 
 - Entwicklung = Konzeption
 - Feinabstimmung = Justage
 - Fingerspitzengefühl = Gespür
@@ -113,6 +116,7 @@ In diesem Template, werde ich dir mein Cheat-Sheet zum Verfassen eines Artikels 
 - Magazin = Revue = Zeitschrift = Heft 
 - Preisinflation in der Hifi = Audiophile Wahnsinn
 - positiv auffallen = brillieren
+- präzise = akribisch
 - Reputation = Renommee
 - rigoros = minuziös = perfektionistisch
 - sehr präzise = hochakkurat
