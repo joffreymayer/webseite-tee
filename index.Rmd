@@ -160,6 +160,7 @@ Hier eine Auflistung aller grammatikalischen Punkte, bei denen ich schon Problem
 ## Von Tee häufig verwendet Wörter
 
 - Charge = Belastung = Ladung
+- Densität = Druck = Intensität
 - kann der Accuphase ... = ist in der Lage = fähig sein = imstande
 - majestuös = prächtig
 - magnifizieren = über sich hinauswachsen = sublimieren = verfeinern = veredeln = verbessern
