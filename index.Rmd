@@ -100,6 +100,7 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 - Auszeichnung = Preis = Dekorierung = Anerkennung = Medaille
 - beschreiben = charakterisieren = ausdrücken = darstellen
 - billig = erschwinlich
+- Design = Ästhetik
 - Eigenschaft = Merkmal = Charakteristiken = Besonderheiten
 - Eindruck = Empfindung = Wahrnehmung = Anschein = Gefühl 
 - Entwicklung = Konzeption
@@ -109,6 +110,7 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 - förmlich = buchstäblich = geradezu = praktisch
 - garantieren = sicherstellen
 - Geburt = Aufkommen
+- gelungen = stimmig
 - Gerät = Gerätschaft = Apparatur = Anlage 
 - gleichzeitig = simultan = zugleich
 - Gründer = Eigner
@@ -120,12 +122,14 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 - Magazin = Revue = Zeitschrift = Heft 
 - Musikstück = Musikpassage
 - offensichtlich = naheliegend = nachvollziehbar = evident = einleuchtend
+- Perfektionist = Klangfanatiker 
 - Preisinflation in der Hifi = Audiophile Wahnsinn
 - positiv auffallen = brillieren
 - präzise = akribisch
 - Reputation = Renommee
 - rigoros = minuziös = perfektionistisch
 - sehr präzise = hochakkurat
+- seit Kurzem = neurdings
 - ständig = stets = fortlaufend = andauernd
 - Unternehmen = Marke = _Name der Unternehmung_ = Betrieb = Konzern = Manufaktur = Firma = Nobel-Audioschmiede = Start-Up
 - übertreffen = niederringen = durchsetzen = überbieten = übertrumpfen
@@ -134,6 +138,7 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 
 ## Ausdrücke
 
+- Der Devialet ist erste Sahne = mit dem Devialet lässt sich bereits exquisite Klang-Sphären erreichen
 - ein Flair für den Lautsprecherbau besitzen = ein Gespür für den Lautsprecherbau besitzen
 - vereinfacht ausgedrückt = salopp ausgedrückt
 - mehr Transparenz = höhere Transparenz = Transparenzgewinn
