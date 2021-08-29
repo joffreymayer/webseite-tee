@@ -58,6 +58,7 @@ In diesem Template, werde ich dir mein Cheat-Sheet zum Verfassen eines Artikels 
         - Verantwortlich für die hochakkurate Transparenz und Klarheit sind die extrem tiefen Verzerrungswerte (0.00025%), sowie der kaum messbare Rauschabstandswert (-130 dB). Der Musikfluss wird dadurch messerscharf und das Gefühl, buchstäblich in die Musik einzutauchen, wird vermittelt.
         - Die beiden Medium-Treiber - ausgestattet mit letzter "TMD-Technologie" und fantastisch leistungsfähigen Beryllium-Hochtönern - 
 zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
+        - Im Stimmenbereich fällt der organische Mitteltöner auf. So können die Phrasierungen und kontrastierende Tonhöhen bei der Aussprache natürlicher und selbstverständlicher wahrgenommen werden, was der Musik-Botschaft einen klaren Authentizitäts-Gewinn verschafft.
         
 ## Marken-Artikel
 
@@ -103,17 +104,22 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 - Eindruck = Empfindung = Wahrnehmung = Anschein = Gefühl 
 - Entwicklung = Konzeption
 - Feinabstimmung = Justage
+- Frequenzbereich = Frequenzspektrum
 - Fingerspitzengefühl = Gespür
 - förmlich = buchstäblich = geradezu = praktisch
 - garantieren = sicherstellen
 - Geburt = Aufkommen
+- Gerät = Gerätschaft = Apparatur = Anlage 
 - gleichzeitig = simultan = zugleich
 - Gründer = Eigner
 - in der Lage sein = imstande sein = fähig sein
 - Integration = Einbau
 - kompakt = schlicht
 - konstant = gleichbleibend
+- kontrastieren = gegenüberstellen = abgrenzen = sich abheben von ... = abweichen = herausstechen
 - Magazin = Revue = Zeitschrift = Heft 
+- Musikstück = Musikpassage
+- offensichtlich = naheliegend = nachvollziehbar = evident = einleuchtend
 - Preisinflation in der Hifi = Audiophile Wahnsinn
 - positiv auffallen = brillieren
 - präzise = akribisch
@@ -121,7 +127,7 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 - rigoros = minuziös = perfektionistisch
 - sehr präzise = hochakkurat
 - ständig = stets = fortlaufend = andauernd
-- Unternehmen = Marke = _Name der Unternehmung_ = Betrieb = Konzern = Manufaktur = Firma = Nobel-Audioschmiede
+- Unternehmen = Marke = _Name der Unternehmung_ = Betrieb = Konzern = Manufaktur = Firma = Nobel-Audioschmiede = Start-Up
 - übertreffen = niederringen = durchsetzen = überbieten = übertrumpfen
 - umsetzen = implementieren
 - Ziel = Vorhaben
@@ -130,6 +136,7 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 
 - ein Flair für den Lautsprecherbau besitzen = ein Gespür für den Lautsprecherbau besitzen
 - vereinfacht ausgedrückt = salopp ausgedrückt
+- mehr Transparenz = höhere Transparenz = Transparenzgewinn
 
 
 ## Grammatik
@@ -161,6 +168,7 @@ Hier eine Auflistung aller grammatikalischen Punkte, bei denen ich schon Problem
 
 - Charge = Belastung = Ladung
 - Densität = Druck = Intensität
+- extasieren = entzücken
 - kann der Accuphase ... = ist in der Lage = fähig sein = imstande
 - majestuös = prächtig
 - magnifizieren = über sich hinauswachsen = sublimieren = verfeinern = veredeln = verbessern
