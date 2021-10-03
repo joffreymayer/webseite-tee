@@ -31,6 +31,8 @@ In diesem Template, werde ich dir mein Cheat-Sheet zum Verfassen eines Artikels 
   - Extreme Treue in den Klangfarben
   - Mehr Nuancen im Bass = Konturen im Untergeschoss
   - Harmonierendes Klangspektrum
+  - Breiteres Bassspektrum
+  - akkurateres Frequenzspektrum = harmonierenderes Frequenzspektrum 
   - Ein noch höheres Mass an Transparenz, Dynamik und Musikalität erlebbar gemacht
   - Bessere Wahrnehmung der Konturen
   
@@ -96,7 +98,9 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 ## Synonyme
 
 - als Erstes = zuerst
-- Audiophile = Musikbegeisterte = High-Ender
+- anpacken = gehandhabt
+- Ansatz = Lösung
+- Audiophile = Musikbegeisterte = Klangfanatiker = High-Ender
 - Auszeichnung = Preis = Dekorierung = Anerkennung = Medaille
 - beschreiben = charakterisieren = ausdrücken = darstellen
 - billig = erschwinlich
@@ -116,7 +120,8 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 - Gründer = Eigner
 - in der Lage sein = imstande sein = fähig sein
 - Integration = Einbau
-- kompakt = schlicht
+- komisch = kurios
+- kompakt = schlicht = schlichte Ästhetik = zierlich = klein, aber fein
 - konstant = gleichbleibend
 - kontrastieren = gegenüberstellen = abgrenzen = sich abheben von ... = abweichen = herausstechen
 - Magazin = Revue = Zeitschrift = Heft 
