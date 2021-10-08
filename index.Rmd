@@ -127,6 +127,7 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 - kompakt = schlicht = schlichte Ästhetik = zierlich = klein, aber fein
 - konstant = gleichbleibend
 - kontrastieren = gegenüberstellen = abgrenzen = sich abheben von ... = abweichen = herausstechen
+- kreieren = herstellen = konzipieren = schöpfen 
 - Magazin = Revue = Zeitschrift = Heft 
 - Musikstück = Musikpassage
 - offensichtlich = naheliegend = nachvollziehbar = evident = einleuchtend
@@ -136,11 +137,13 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 - präzise = akribisch
 - Reputation = Renommee
 - rigoros = minuziös = perfektionistisch
+- Schnelligkeit = Geschwindigkeit
 - sehr präzise = hochakkurat
 - sehr klein = bescheiden
 - seit Kurzem = neurdings
 - ständig = stets = fortlaufend = andauernd
 - Unternehmen = Marke = _Name der Unternehmung_ = Betrieb = Konzern = Manufaktur = Firma = Nobel-Audioschmiede = Start-Up
+- Ursache = Grund 
 - übertreffen = niederringen = durchsetzen = überbieten = übertrumpfen
 - umsetzen = implementieren
 - Ziel = Vorhaben
