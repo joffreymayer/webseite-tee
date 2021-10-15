@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Warum eine htaccess-Datei?
+# Warum eine htaccess-Datei?
 
 Manchmal wirst du gezwungen sein, Server-Einstellungen vorzunehmen, beispielsweise:
 
