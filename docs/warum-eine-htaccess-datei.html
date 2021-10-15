@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 2 Effizientes Korrigieren | Tee’s AD-Webseite</title>
-  <meta name="description" content="Chapter 2 Effizientes Korrigieren | Tee’s AD-Webseite" />
+  <title>Chapter 5 Warum eine htaccess-Datei? | Tee’s AD-Webseite</title>
+  <meta name="description" content="Chapter 5 Warum eine htaccess-Datei? | Tee’s AD-Webseite" />
   <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 2 Effizientes Korrigieren | Tee’s AD-Webseite" />
+  <meta property="og:title" content="Chapter 5 Warum eine htaccess-Datei? | Tee’s AD-Webseite" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 2 Effizientes Korrigieren | Tee’s AD-Webseite" />
+  <meta name="twitter:title" content="Chapter 5 Warum eine htaccess-Datei? | Tee’s AD-Webseite" />
   
   
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="index.html"/>
-<link rel="next" href="youtube.html"/>
+<link rel="prev" href="gimp.html"/>
+
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -121,23 +121,26 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="effizientes-korrigieren" class="section level1">
-<h1><span class="header-section-number">Chapter 2</span> Effizientes Korrigieren</h1>
-<p>Hier zeige ich dir, wie du schneller Artikel korrigierst.</p>
-<div id="methode-um-schnell-effizient-korrekturen-vorzunehmen" class="section level2">
-<h2><span class="header-section-number">2.1</span> Methode, um schnell &amp; effizient Korrekturen vorzunehmen</h2>
-<p>Wenn mir Tee seine Texte zu korrgieren gibt, solltest du die folgenden Programme immer offen &amp; bereit haben, <strong>um so wenig Zeit wie möglich zu verlieren</strong>:</p>
+<div id="warum-eine-htaccess-datei" class="section level1">
+<h1><span class="header-section-number">Chapter 5</span> Warum eine htaccess-Datei?</h1>
+<p>Manchmal wirst du gezwungen sein, Server-Einstellungen vorzunehmen, beispielsweise:</p>
 <ul>
-<li><a href="https://www.deepl.com/translator">Deepl</a>, für das schnelle Übersetzen von Texten.</li>
-<li><a href="https://dict.leo.org/französisch-deutsch/">Leo Wörterbuch</a>, für präzise Übersetzung.</li>
-<li><a href="https://www.wordtune.com/#rewrite-demo">Wordtune</a>, für Umformulierungen.</li>
-<li><a href="https://www.fairaudio.de/lexikon/">Das Audio-Lexikon</a> für technische Details über Audio.</li>
-<li><a href="./index.html">Öffne das Markdown-File für Synonyme &amp; Fachwörter</a>, welches du selbst erstellt hast, um häufig auftauchende Probleme - z.B. bessere Wörter, genauere Ausdrücke oder Beschreibungen etc. - schneller zu regeln.
+<li>Wenn ich den <strong>Titel von HTML-Seiten umbennene</strong>.
 <ul>
-<li><u>Achtung</u>: Öffne dieses File nicht als Markdown, sondern als HTML-File, sonst wirst du eine Error-Message erhalten, wenn du es “knittest”!</li>
+<li><u>Problem</u>: Dies verändert die URL der Webseite, wodurch ich gezwungen werde, die ursprüngliche HTML-Seite - mit dem <em>alten</em> Titel - zu redirecten (mit einer 301-Weiterleitung), ansosten <strong>verlierst du den Page-Rank</strong>.</li>
 </ul></li>
-<li>Deine Email, wenn Tee dir neue / alternative Versionen schickt.</li>
+<li>Wenn ich <strong>HTML-Seiten komplett von meiner Webseite lösche</strong>, muss der Server eine 410-Error (“gone”) oder 404-Error (“information not found”) angeben.
+<ul>
+<li><u>Problem</u>: Wenn ich der Google-Suchmaschine nicht explizit sage, dass ich gewisse HTML-Files von meiner Webseite gelöscht habe, dann wird es mich mit <strong>schlechteren Rankings auf meiner Webseite</strong> bestrafen.</li>
+</ul></li>
 </ul>
+<p><em>Alle diese Dinge kannst du via einer <code>.htaccess</code>-Datei steuern. Es ist eine sehr mächtige Datei, welche nur auf dem Server ersichtlich ist</em>.</p>
+<p><u>Achtung</u>: Fehler im Code können dazu führen, dass deine gesamte Webseite crasht, deshalb ist hier vorsicht geboten!</p>
+<div id="lösche-eine-html-seite-von-der-webseite-410-error" class="section level3">
+<h3><span class="header-section-number">5.0.1</span> Lösche eine HTML-Seite von der Webseite (410-Error)</h3>
+<p>Code, den ich in den Root-Folder meiner Webseite in der <code>.htaccess</code>-Detei eingeben sollte:</p>
+<pre><code>Redirect gone /path/path/folder/
+ErrorDocument 410 default</code></pre>
 
 </div>
 </div>
@@ -146,8 +149,8 @@
           </div>
         </div>
       </div>
-<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="youtube.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="gimp.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -179,7 +182,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/joffreymayer/webseite-tee/edit/master/02-korr.Rmd",
+"link": "https://github.com/joffreymayer/webseite-tee/edit/master/05-htaccess.Rmd",
 "text": "Edit"
 },
 "history": {
@@ -187,7 +190,7 @@ gitbook.start({
 "text": null
 },
 "view": {
-"link": "https://github.com/joffreymayer/webseite-tee/blob/master/02-korr.Rmd",
+"link": "https://github.com/joffreymayer/webseite-tee/blob/master/05-htaccess.Rmd",
 "text": null
 },
 "download": null,
