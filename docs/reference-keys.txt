@@ -19,3 +19,5 @@ nützliche-webseiten
 gimp
 nützliches-wissen
 verwendete-einstellungen
+warum-eine-htaccess-datei
+lösche-eine-html-seite-von-der-webseite-410-error

@@ -17,6 +17,15 @@ In diesem Template, werde ich dir mein Cheat-Sheet zum Verfassen eines Artikels 
   2) Mitteltöner
   3) Bass // Basstreiber
   
+- Wenn nur ein Instrument im Zentrum eines Orchesters spielt, z.B. einer Violine, dann nennt man dies ein:
+  
+  - Instrumenten-Solo
+  
+- Klangcharakteristikas, die vom Hörer bei der Klangwiedergabe wahrgenommen werden können:
+
+  - pur = rein / Reinheit
+  - frisch = unverblasst
+  
 - "Besser heraushören" kann Unterschiedliches bedeuten:
 
   - Mehr Klarheit
@@ -61,6 +70,7 @@ In diesem Template, werde ich dir mein Cheat-Sheet zum Verfassen eines Artikels 
         - Die beiden Medium-Treiber - ausgestattet mit letzter "TMD-Technologie" und fantastisch leistungsfähigen Beryllium-Hochtönern - 
 zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
         - Im Stimmenbereich fällt der organische Mitteltöner auf. So können die Phrasierungen und kontrastierende Tonhöhen bei der Aussprache natürlicher und selbstverständlicher wahrgenommen werden, was der Musik-Botschaft einen klaren Authentizitäts-Gewinn verschafft.
+        - kristaline Auflösung
         
 ## Marken-Artikel
 
@@ -78,7 +88,7 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 
 - Aus technischer // XY Sicht ...
 - Ausserdem
-- Dadurch = Damit = Aufgrund dessen = daher = so
+- Dadurch = Damit = Aufgrund dessen = daher = so = somit
 - Entsprechend
 - Genauso wie ...
 - Hier 
@@ -100,6 +110,7 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 - als Erstes = zuerst
 - anpacken = gehandhabt
 - Ansatz = Lösung
+- auch wenn = obschon 
 - Audiophile = Musikbegeisterte = Klangfanatiker = High-Ender
 - Auszeichnung = Preis = Dekorierung = Anerkennung = Medaille
 - beschreiben = charakterisieren = ausdrücken = darstellen
@@ -123,8 +134,8 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 - Hörraum = Wohnfläche = Interieur 
 - in der Lage sein = imstande sein = fähig sein
 - Integration = Einbau
+- klein = kompakt = schlicht = schlichte Ästhetik = zierlich = klein, aber fein = bescheidenes Kaliber / Format
 - komisch = kurios
-- kompakt = schlicht = schlichte Ästhetik = zierlich = klein, aber fein
 - konstant = gleichbleibend
 - kontrastieren = gegenüberstellen = abgrenzen = sich abheben von ... = abweichen = herausstechen
 - kreieren = herstellen = konzipieren = schöpfen 
@@ -185,14 +196,17 @@ Hier eine Auflistung aller grammatikalischen Punkte, bei denen ich schon Problem
 
 - Charge = Belastung = Ladung
 - Densität = Druck = Intensität
+- erste Sahne = exquisit = sublim = hochwertig = vorzüglich = exzellent = superb 
 - extasieren = entzücken
 - kann der Accuphase ... = ist in der Lage = fähig sein = imstande
+- klanglich besser als ... = klanglich einen höherwertigeren Gesamteindruck
 - majestuös = prächtig
 - magnifizieren = über sich hinauswachsen = sublimieren = verfeinern = veredeln = verbessern
-- klanglich besser als ... = klanglich einen höherwertigeren Gesamteindruck
-- wir sind verliebt // wir sind eingeliebt = wir sind entzückt 
+- ohne jemals schrill oder vulgär zu werden = ohne jedoch aufdringlich zu wirken
+- schon = bereits
 - Temperaturdrift (bei CH Precision Exact Bias) = Temperaturabweichungen
 - Valeur sûre = eine sichere Investition 
+- wir sind verliebt // wir sind eingeliebt = wir sind entzückt 
 
 ## Sonstige nützliche Adjektive
 
