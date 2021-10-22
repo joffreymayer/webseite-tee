@@ -5,15 +5,11 @@ date: "10/15/2021"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 # Warum eine htaccess-Datei?
 
 Manchmal wirst du gezwungen sein, Server-Einstellungen vorzunehmen, beispielsweise:
 
-- Wenn ich den **Titel von HTML-Seiten umbennene**. 
+- Wenn ich den **Titel von HTML-Seiten umbenenne**. 
   - <u>Problem</u>: Dies verändert die URL der Webseite, wodurch ich gezwungen werde, die ursprüngliche HTML-Seite - mit dem _alten_ Titel - zu redirecten (mit einer 301-Weiterleitung), ansosten **verlierst du den Page-Rank**.
 - Wenn ich **HTML-Seiten komplett von meiner Webseite lösche**, muss der Server eine 410-Error ("gone") oder 404-Error ("information not found") angeben.
   - <u>Problem</u>: Wenn ich der Google-Suchmaschine nicht explizit sage, dass ich gewisse HTML-Files von meiner Webseite gelöscht habe, dann wird es mich mit **schlechteren Rankings auf meiner Webseite** bestrafen.
@@ -24,7 +20,7 @@ Manchmal wirst du gezwungen sein, Server-Einstellungen vorzunehmen, beispielswei
   
 ### Lösche eine HTML-Seite von der Webseite (410-Error)
   
-Code, den ich in den Root-Folder meiner Webseite in der `.htaccess`-Detei eingeben sollte:
+Code, den ich in den Root-Folder meiner Webseite in der `.htaccess`-Datei eingeben sollte:
 
 ```
 Redirect gone /path/path/folder/

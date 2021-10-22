@@ -1,0 +1,16 @@
+---
+title: "Instagram"
+author: "Joffrey Mayer"
+date: "10/22/2021"
+output: html_document
+---
+
+# Instagram
+
+In diesem Kapitel werde ich alles zu Instagram zusammenfassen, das ich weiss.
+
+## Mass für Posts
+
+```
+1080px by 1080px at a 1:1 aspect ratio
+```

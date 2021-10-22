@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 5 Warum eine htaccess-Datei? | Tee’s AD-Webseite</title>
-  <meta name="description" content="Chapter 5 Warum eine htaccess-Datei? | Tee’s AD-Webseite" />
+  <title>Chapter 6 Warum eine htaccess-Datei? | Tee’s AD-Webseite</title>
+  <meta name="description" content="Chapter 6 Warum eine htaccess-Datei? | Tee’s AD-Webseite" />
   <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 5 Warum eine htaccess-Datei? | Tee’s AD-Webseite" />
+  <meta property="og:title" content="Chapter 6 Warum eine htaccess-Datei? | Tee’s AD-Webseite" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 5 Warum eine htaccess-Datei? | Tee’s AD-Webseite" />
+  <meta name="twitter:title" content="Chapter 6 Warum eine htaccess-Datei? | Tee’s AD-Webseite" />
   
   
   
@@ -24,14 +24,14 @@
 <meta name="author" content="Joffrey Anthony" />
 
 
-<meta name="date" content="2021-10-15" />
+<meta name="date" content="2021-10-22" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="gimp.html"/>
+<link rel="prev" href="instagram.html"/>
 
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -99,8 +99,11 @@
 <li class="chapter" data-level="4.1" data-path="gimp.html"><a href="gimp.html#nützliches-wissen"><i class="fa fa-check"></i><b>4.1</b> Nützliches Wissen</a></li>
 <li class="chapter" data-level="4.2" data-path="gimp.html"><a href="gimp.html#verwendete-einstellungen"><i class="fa fa-check"></i><b>4.2</b> Verwendete Einstellungen</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="warum-eine-htaccess-datei.html"><a href="warum-eine-htaccess-datei.html"><i class="fa fa-check"></i><b>5</b> Warum eine htaccess-Datei?</a><ul>
-<li class="chapter" data-level="5.0.1" data-path="warum-eine-htaccess-datei.html"><a href="warum-eine-htaccess-datei.html#lösche-eine-html-seite-von-der-webseite-410-error"><i class="fa fa-check"></i><b>5.0.1</b> Lösche eine HTML-Seite von der Webseite (410-Error)</a></li>
+<li class="chapter" data-level="5" data-path="instagram.html"><a href="instagram.html"><i class="fa fa-check"></i><b>5</b> Instagram</a><ul>
+<li class="chapter" data-level="5.1" data-path="instagram.html"><a href="instagram.html#mass-für-posts"><i class="fa fa-check"></i><b>5.1</b> Mass für Posts</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="warum-eine-htaccess-datei.html"><a href="warum-eine-htaccess-datei.html"><i class="fa fa-check"></i><b>6</b> Warum eine htaccess-Datei?</a><ul>
+<li class="chapter" data-level="6.0.1" data-path="warum-eine-htaccess-datei.html"><a href="warum-eine-htaccess-datei.html#lösche-eine-html-seite-von-der-webseite-410-error"><i class="fa fa-check"></i><b>6.0.1</b> Lösche eine HTML-Seite von der Webseite (410-Error)</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -122,10 +125,10 @@
 
             <section class="normal" id="section-">
 <div id="warum-eine-htaccess-datei" class="section level1">
-<h1><span class="header-section-number">Chapter 5</span> Warum eine htaccess-Datei?</h1>
+<h1><span class="header-section-number">Chapter 6</span> Warum eine htaccess-Datei?</h1>
 <p>Manchmal wirst du gezwungen sein, Server-Einstellungen vorzunehmen, beispielsweise:</p>
 <ul>
-<li>Wenn ich den <strong>Titel von HTML-Seiten umbennene</strong>.
+<li>Wenn ich den <strong>Titel von HTML-Seiten umbenenne</strong>.
 <ul>
 <li><u>Problem</u>: Dies verändert die URL der Webseite, wodurch ich gezwungen werde, die ursprüngliche HTML-Seite - mit dem <em>alten</em> Titel - zu redirecten (mit einer 301-Weiterleitung), ansosten <strong>verlierst du den Page-Rank</strong>.</li>
 </ul></li>
@@ -137,8 +140,8 @@
 <p><em>Alle diese Dinge kannst du via einer <code>.htaccess</code>-Datei steuern. Es ist eine sehr mächtige Datei, welche nur auf dem Server ersichtlich ist</em>.</p>
 <p><u>Achtung</u>: Fehler im Code können dazu führen, dass deine gesamte Webseite crasht, deshalb ist hier vorsicht geboten!</p>
 <div id="lösche-eine-html-seite-von-der-webseite-410-error" class="section level3">
-<h3><span class="header-section-number">5.0.1</span> Lösche eine HTML-Seite von der Webseite (410-Error)</h3>
-<p>Code, den ich in den Root-Folder meiner Webseite in der <code>.htaccess</code>-Detei eingeben sollte:</p>
+<h3><span class="header-section-number">6.0.1</span> Lösche eine HTML-Seite von der Webseite (410-Error)</h3>
+<p>Code, den ich in den Root-Folder meiner Webseite in der <code>.htaccess</code>-Datei eingeben sollte:</p>
 <pre><code>Redirect gone /path/path/folder/
 ErrorDocument 410 default</code></pre>
 
@@ -149,7 +152,7 @@ ErrorDocument 410 default</code></pre>
           </div>
         </div>
       </div>
-<a href="gimp.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="instagram.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 
     </div>
   </div>
@@ -182,7 +185,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/joffreymayer/webseite-tee/edit/master/05-htaccess.Rmd",
+"link": "https://github.com/joffreymayer/webseite-tee/edit/master/06-htaccess.Rmd",
 "text": "Edit"
 },
 "history": {
@@ -190,7 +193,7 @@ gitbook.start({
 "text": null
 },
 "view": {
-"link": "https://github.com/joffreymayer/webseite-tee/blob/master/05-htaccess.Rmd",
+"link": "https://github.com/joffreymayer/webseite-tee/blob/master/06-htaccess.Rmd",
 "text": null
 },
 "download": null,
