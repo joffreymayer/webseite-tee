@@ -14,3 +14,10 @@ In diesem Kapitel werde ich alles zu Instagram zusammenfassen, das ich weiss.
 ```
 1080px by 1080px at a 1:1 aspect ratio
 ```
+
+## Hintergrundfarbe
+
+- Grau = `e9e9e7`
+- Orange = `e47518`
+
+

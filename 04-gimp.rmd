@@ -16,3 +16,13 @@ In diesem File gebe ich Dir diverse Angaben zu **meinen Einstellungen**, welche 
   - **<u>Gelb</u>**: fff068
   - **<u>Blau</u>**: 3bcace
   - **<u>Rot</u>**: ff0000
+  
+## Bild-Auflösung verbessern
+
+Bei Bildern gibt es das Problem, dass diese nicht aufskaliert werden können, ohne an Auflösung zu verlieren.
+
+*Mit der Webseite [letsenhance.io](https://letsenhance.io/) gibt es dieses Problem jedoch nicht mehr.*
+
+<u>Hier ein Test, den ich selbst durchgeführt habe</u>:
+
+![Das Bild auf der Linken Seite ist durch den AI-Algo durch, während das Bild auf der rechten Seite unbearbeitet ist.](./bilder/vergleich-bild-optimierung.jpg)
