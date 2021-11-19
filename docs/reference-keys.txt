@@ -25,3 +25,9 @@ mass-für-posts
 hintergrundfarbe
 warum-eine-htaccess-datei
 lösche-eine-html-seite-von-der-webseite-410-error
+visual-studio-code
+nützliche-shortcuts
+internal-terminal-inside-vs-code
+automatische-comments
+auto-formatting
+rename-refactor

@@ -1,0 +1,21 @@
+# Visual Studio Code
+
+In diesem Kapitel zeige ich dir die nützlichsten Tricks, welche ich im Umgang mit `VS-Code` gelernt habe.
+
+## Nützliche Shortcuts
+
+### Internal Terminal (inside VS-Code)
+
+- `shift` + `control` + `^`-Taste
+
+### Automatische Comments
+
+- `shift` + `command` + `7`-Taste
+
+### Auto-Formatting
+
+- `shift` + `option` + `F`-Taste
+
+### Rename Refactor
+
+- Hit `F2`-Taste (= `fn` + `F2`, das in der elektronischen Leiste meines Macs erscheint, wenn du `fn` drückst), während du im File-Namen oder Variablen-Namen bist, um es über alle Dokumente hinweg zu ändern! 
