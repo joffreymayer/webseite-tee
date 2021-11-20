@@ -196,6 +196,7 @@ Hier eine Auflistung aller grammatikalischen Punkte, bei denen ich schon Problem
 
 ## Von Tee häufig verwendet Wörter
 
+- charakteristisch = hervorstechendes Merkmal = das Kennzeichen der Marke = ausgeprägte Eigenschaft
 - Charge = Belastung = Ladung
 - Densität = Druck = Intensität
 - erste Sahne = exquisit = sublim = hochwertig = vorzüglich = exzellent = superb 
