@@ -1,5 +1,11 @@
 # Youtube
 
+## Allgmein nützliche Tricks
+
+### Make a Link _directly_ to the relevant part of a Youtube-Video
+
+- You simply need to copy a full youtube-video-link and add the suffix `&t=3m45s`. This is just an example, you can put in any minutes or seconds.
+
 ## Video-Bearbeitungs-Software
 
 - Free to use: [Davinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/)
