@@ -2,6 +2,16 @@
 
 In diesem Kapitel zeige ich dir die nützlichsten Tricks, welche ich im Umgang mit `VS-Code` gelernt habe.
 
+## Allgemein Nützliches
+
+### Close Working Directory
+
+> When to use it?
+
+If you work on your Website in VS-Code, you will have the current repository as your `working-directory`. That's why - when you want to start a completely _new_ project - you will nee this trick:
+
+- Go to `File` in the top-navigation bar > `Close Folder` --> Tadah :)
+
 ## Nützliche Shortcuts
 
 ### Internal Terminal (inside VS-Code)
@@ -32,12 +42,11 @@ _Besonders nützlich, wenn man nicht will, dass der Code eeewig auf eine einzige
 
 - Hit `F2`-Taste (= `fn` + `F2`, das in der elektronischen Leiste meines Macs erscheint, wenn du `fn` drückst), während du im File-Namen oder Variablen-Namen bist, um es über alle Dokumente hinweg zu ändern! 
 
-## Allgemein Nützliches
+### Emmet Shortcuts
 
-### Close Working Directory
+`Emmet` is simply a Syntax that VS-Code is able to read - like the `Markdown`-Syntax for example - and is able to output many fancy stuff. 
 
-> When to use it?
+### Building the structure of an HTML-Page
 
-If you work on your Website in VS-Code, you will have the current repository as your `working-directory`. That's why - when you want to start a completely _new_ project - you will nee this trick:
+For instance - by simply typing `!` - you can generate a whole HTML-page structured like this: 
 
-- Go to `File` in the top-navigation bar > `Close Folder` --> Tadah :)

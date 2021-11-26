@@ -26,6 +26,8 @@ hintergrundfarbe
 warum-eine-htaccess-datei
 lösche-eine-html-seite-von-der-webseite-410-error
 visual-studio-code
+allgemein-nützliches
+close-working-directory
 nützliche-shortcuts
 internal-terminal-inside-vs-code
 automatische-comments
@@ -33,5 +35,5 @@ rauf-runter-bewegen-von-code-snippets
 automatic-line-break
 auto-formatting
 rename-refactor
-allgemein-nützliches
-close-working-directory
+emmet-shortcuts
+building-the-structure-of-an-html-page
