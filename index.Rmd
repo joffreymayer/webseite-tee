@@ -113,6 +113,7 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 - auch wenn = obschon 
 - Audiophile = Musikbegeisterte = Klangfanatiker = High-Ender
 - Auszeichnung = Preis = Dekorierung = Anerkennung = Medaille
+- Bau = Konstruktion 
 - beschreiben = charakterisieren = ausdrücken = darstellen
 - billig = erschwinlich
 - clever = raffiniert = geschickte
@@ -120,7 +121,8 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 - Eigenschaft = Merkmal = Charakteristiken = Besonderheiten
 - Eindruck = Empfindung = Wahrnehmung = Anschein = Gefühl 
 - Entwicklung = Konzeption
-- ermöglichen = bewerkstelligen
+- ermöglichen = bewerkstelligen = in die Lage versetzen = die Gelegenheit bieten
+- fein = delikat
 - Feinabstimmung = Justage
 - Frequenzbereich = Frequenzspektrum
 - Fingerspitzengefühl = Gespür
@@ -159,6 +161,7 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 - Ursache = Grund 
 - übertreffen = niederringen = durchsetzen = überbieten = übertrumpfen
 - umsetzen = implementieren
+- verbessern = revidieren = sich steigern = bereichern
 - Ziel = Vorhaben
 
 ## Ausdrücke
@@ -199,6 +202,7 @@ Hier eine Auflistung aller grammatikalischen Punkte, bei denen ich schon Problem
 - charakteristisch = hervorstechendes Merkmal = das Kennzeichen der Marke = ausgeprägte Eigenschaft
 - Charge = Belastung = Ladung
 - Densität = Druck = Intensität
+- "Ein- & Ausschalten" der Noten = Ein- & Abklingen der Noten
 - erste Sahne = exquisit = sublim = hochwertig = vorzüglich = exzellent = superb 
 - extasieren = entzücken
 - Im Ei töten = Im Keim ersticken

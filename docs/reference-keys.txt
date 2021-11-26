@@ -29,5 +29,9 @@ visual-studio-code
 nützliche-shortcuts
 internal-terminal-inside-vs-code
 automatische-comments
+rauf-runter-bewegen-von-code-snippets
+automatic-line-break
 auto-formatting
 rename-refactor
+allgemein-nützliches
+close-working-directory

@@ -12,6 +12,18 @@ In diesem Kapitel zeige ich dir die nützlichsten Tricks, welche ich im Umgang m
 
 - `shift` + `command` + `7`-Taste
 
+### Rauf & runter bewegen von Code-Snippets
+
+- `option` + `Upward-Arrow`-Taste
+
+_Besonders nützlich, in Kombination mit "automatischen Kommentaren", wenn man einen Text nicht löschen, sondern einfach 'für später' eventuell verwenden will_.
+
+### Automatic Line-Break
+
+- `option` + `z`-Taste
+
+_Besonders nützlich, wenn man nicht will, dass der Code eeewig auf eine einzige Linie weitergeht (und man dann ständig die "Enter"-Taste drücken muss...)_.
+
 ### Auto-Formatting
 
 - `shift` + `option` + `F`-Taste
@@ -19,3 +31,13 @@ In diesem Kapitel zeige ich dir die nützlichsten Tricks, welche ich im Umgang m
 ### Rename Refactor
 
 - Hit `F2`-Taste (= `fn` + `F2`, das in der elektronischen Leiste meines Macs erscheint, wenn du `fn` drückst), während du im File-Namen oder Variablen-Namen bist, um es über alle Dokumente hinweg zu ändern! 
+
+## Allgemein Nützliches
+
+### Close Working Directory
+
+> When to use it?
+
+If you work on your Website in VS-Code, you will have the current repository as your `working-directory`. That's why - when you want to start a completely _new_ project - you will nee this trick:
+
+- Go to `File` in the top-navigation bar > `Close Folder` --> Tadah :)
