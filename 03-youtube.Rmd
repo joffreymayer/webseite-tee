@@ -15,9 +15,11 @@
 
 ### Übersicht Regeln zu Copy-Right mit fremder Musik im Video
 
-Pendant que je mettais la vidéo de la Monitor 50 7G sur Youtube, l’algorithme de Youtube m’a de nouveau donné un avertissement de violation de „copy-right“ à cause des morceaux de musiques qu’on utilise (voir la capture d’écran en annexe). Ces avertissements sont sans conséquences juridiques pour nous & nos vidéos, puisque le „copy right“ permet juste de mettre à l’auteur du morceaux de musique des pubs sur nos vidéos: donc de s’enrichir avec notre travail de présentation (surtout la maison de disque derrière tout cela). 
+Pendant que je mettais la vidéo de la Monitor 50 7G sur Youtube, l’algorithme de Youtube m’a de nouveau donné un avertissement de violation de „copy-right“ à cause des morceaux de musiques qu’on utilise (voir la capture). 
 
 ![Example of a Youtube Copy-Right Claim, which has no consequences for your Channel](./bilder/youtube/youtube-cr-claims.png)
+
+Ces avertissements sont sans conséquences juridiques pour nous & nos vidéos, puisque le „copy right“ permet juste de mettre à l’auteur du morceaux de musique des pubs sur nos vidéos: donc de s’enrichir avec notre travail de présentation (surtout la maison de disque derrière tout cela).
 
 - <u>Hier ein genereller Überblick der Regeln, bei der Verwendung fremder Musik in einem Youtube-Video</u>: [Linzenzfreie Musik für Youtube-Videos](https://www.youtube.com/watch?v=qw2owtU1mD4)
 
