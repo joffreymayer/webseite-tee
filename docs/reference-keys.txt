@@ -25,7 +25,7 @@ nützliches-wissen
 youtube-videos
 heilen-werkzeug
 dinge-unsichtbar-machen-arbeiten-mit-ebenenmasken
-dinge-symmetrisch-machen-auf-gleicher-höhe-bringen-mit-raster-arbeiten
+mit-raster-arbeiten-dinge-symmetrisch-machen-auf-gleicher-höhe-bringen
 auswahl-invertieren
 transparenter-hintergrund-für-gedownloadete-bilder-aus-internet
 hässlicher-hintergrund-retouchieren-oder-unsichtbar-machen

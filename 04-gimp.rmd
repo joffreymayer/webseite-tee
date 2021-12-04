@@ -14,59 +14,60 @@ Ich habe einige Videos gemacht, um dir zu zeigen, wie sich gewisse Dinge machen 
 
 ### Dinge Unsichtbar machen: Arbeiten mit Ebenenmasken 
 
-- <u>Link zu meinem Youtube-Video</u>: [Heilen-Werkzeug benutzen](https://www.youtube.com/watch?v=AKmoUygpzSU)
+- <u>Link zu meinem Youtube-Video</u>: [Mit Ebenenmasken arbeiten](https://www.youtube.com/watch?v=AKmoUygpzSU)
 
-### Dinge symmetrisch machen & auf gleicher Höhe bringen: mit Raster arbeiten
+### Mit Raster arbeiten: Dinge symmetrisch machen & auf gleicher Höhe bringen
 
-- <u>Link zu meinem Youtube-Video</u>: [Heilen-Werkzeug benutzen](https://www.youtube.com/watch?v=tF6Vuqc86iY)
+- <u>Link zu meinem Youtube-Video</u>: [Mit Raster arbeiten](https://www.youtube.com/watch?v=tF6Vuqc86iY)
 
 ### Auswahl invertieren
 
-- <u>Link zu meinem Youtube-Video</u>: [Heilen-Werkzeug benutzen](https://www.youtube.com/watch?v=3jN8K7-6PXA)
+- <u>Link zu meinem Youtube-Video</u>: [Selektierte Auswahl invertieren](https://www.youtube.com/watch?v=3jN8K7-6PXA)
 
 ### Transparenter Hintergrund für gedownloadete Bilder aus Internet
 
-- <u>Link zu meinem Youtube-Video</u>: [Heilen-Werkzeug benutzen](https://www.youtube.com/watch?v=AC6Z0CtkcKw)
+- <u>Link zu meinem Youtube-Video</u>: [Transparenter Hintergrund hinzufügen für Bilder aus dem Internet](https://www.youtube.com/watch?v=AC6Z0CtkcKw)
+- <u>AI-Webseite, die es besser macht</u>: [Remove.bg](https://www.remove.bg/de)
 
 ### Hässlicher Hintergrund retouchieren oder unsichtbar machen?
 
-- <u>Link zu meinem Youtube-Video</u>: [Heilen-Werkzeug benutzen](https://www.youtube.com/watch?v=MOC2llLs8Tw)
+- <u>Link zu meinem Youtube-Video</u>: [Hässlicher Hintergrund Retouchieren ODER unsichtbar machen](https://www.youtube.com/watch?v=MOC2llLs8Tw)
 
 ### Mit Vordergrundfarbe arbeiten
 
-- <u>Link zu meinem Youtube-Video</u>: [Heilen-Werkzeug benutzen](https://www.youtube.com/watch?v=B79b8Nq9BUI)
+- <u>Link zu meinem Youtube-Video</u>: [Mit Vordergrund-Farbe arbeiten](https://www.youtube.com/watch?v=B79b8Nq9BUI)
 
 ### Ganz spezifische Flächen wegschneiden oder ausmalen
 
-- <u>Link zu meinem Youtube-Video</u>: [Heilen-Werkzeug benutzen](https://www.youtube.com/watch?v=F9GfQ-89fwk)
+- <u>Link zu meinem Youtube-Video</u>: [Spezifische Flächen wegschneiden ODER ausmalen](https://www.youtube.com/watch?v=F9GfQ-89fwk)
 
 ### Ebenen vereinen
 
-- <u>Link zu meinem Youtube-Video</u>: [Heilen-Werkzeug benutzen](https://www.youtube.com/watch?v=mjR_F5ioAEs)
+- <u>Link zu meinem Youtube-Video</u>: [Ebenen vereinen](https://www.youtube.com/watch?v=mjR_F5ioAEs)
 
 ### Crop to specific aspect-ratio: Seitenverhältnis steuern
 
-- <u>Link zu meinem Youtube-Video</u>: [Heilen-Werkzeug benutzen](https://www.youtube.com/watch?v=Xdi7Lt0GPuw)
+- <u>Link zu meinem Youtube-Video</u>: [Seitenverhältnis anpassen](https://www.youtube.com/watch?v=Xdi7Lt0GPuw)
 
 ### Blurr-Effekt einfügen: für Texte oder Gesichter
 
-- <u>Link zu meinem Youtube-Video</u>: [Heilen-Werkzeug benutzen](https://www.youtube.com/watch?v=NJZfLfQR37c)
+- <u>Link zu meinem Youtube-Video</u>: [Blurr-Effekt hinzufügen](https://www.youtube.com/watch?v=NJZfLfQR37c)
 
 ### Künstlicher Schatten einfügen
 
-- <u>Link zu meinem Youtube-Video</u>: [Heilen-Werkzeug benutzen](https://www.youtube.com/watch?v=dAKoG-MMGv8)
+- <u>Link zu meinem Youtube-Video</u>: [Künstlicher Schatten hinzufügen](https://www.youtube.com/watch?v=dAKoG-MMGv8)
 
 ### Kreise zeichnen + Umrisse der Kreise + neuer Kreis um den bestehenden Kreis
 
-- <u>Link zu meinem Youtube-Video</u>: [Heilen-Werkzeug benutzen](https://www.youtube.com/watch?v=a7rKwY9ZBs0)
+- <u>Link zu meinem Youtube-Video</u>: [Kreise zeichnen](https://www.youtube.com/watch?v=a7rKwY9ZBs0)
 
 ### Wie mache ich alles schwarz-weiss, ausser etwas bleibt farbig?
 
-- <u>Link zu meinem Youtube-Video</u>: [Heilen-Werkzeug benutzen](https://www.youtube.com/watch?v=TKcnQyiDe5I)
+- <u>Link zu meinem Youtube-Video</u>: [Mache alles schwarz-weiss, ausser ein Bereich](https://www.youtube.com/watch?v=TKcnQyiDe5I)
 
 ### Beim Einfügen von Bilder: bleiben immer schwarz-weiss, obwohl farbig gewünscht
 
-- <u>Link zu meinem Youtube-Video</u>: [Heilen-Werkzeug benutzen](https://www.youtube.com/watch?v=1EgTp-txiQ0)
+- <u>Link zu meinem Youtube-Video</u>: [Problem, bei dem ein Bild schwarz-weiss bleibt, anstatt farbig zu werden](https://www.youtube.com/watch?v=1EgTp-txiQ0)
 
 ## Meine GIMP-Einstellungen
 
