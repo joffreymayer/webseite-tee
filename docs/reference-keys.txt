@@ -34,6 +34,7 @@ ganz-spezifische-flächen-wegschneiden-oder-ausmalen
 ebenen-vereinen
 crop-to-specific-aspect-ratio-seitenverhältnis-steuern
 blurr-effekt-einfügen-für-texte-oder-gesichter
+künstlicher-schatten-einfügen
 kreise-zeichnen-umrisse-der-kreise-neuer-kreis-um-den-bestehenden-kreis
 wie-mache-ich-alles-schwarz-weiss-ausser-etwas-bleibt-farbig
 beim-einfügen-von-bilder-bleiben-immer-schwarz-weiss-obwohl-farbig-gewünscht
