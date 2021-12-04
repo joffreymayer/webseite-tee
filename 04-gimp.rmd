@@ -4,7 +4,67 @@
 
 - Wenn du ein Bild auf- oder abskalierst, dann verlierst du automatisch an Auflösung.
 
-## Verwendete Einstellungen
+## Youtube-Videos
+
+Ich habe einige Videos gemacht, um dir zu zeigen, wie sich gewisse Dinge machen lassen:
+
+### Heilen-Werkzeug
+
+- <u>Link zu meinem Youtube-Video</u>: [Heilen-Werkzeug benutzen](https://www.youtube.com/watch?v=fprxqzKDTTk)
+
+### Dinge Unsichtbar machen: Arbeiten mit Ebenenmasken 
+
+- <u>Link zu meinem Youtube-Video</u>: [Heilen-Werkzeug benutzen](https://www.youtube.com/watch?v=AKmoUygpzSU)
+
+### Dinge symmetrisch machen & auf gleicher Höhe bringen: mit Raster arbeiten
+
+- <u>Link zu meinem Youtube-Video</u>: [Heilen-Werkzeug benutzen](https://www.youtube.com/watch?v=tF6Vuqc86iY)
+
+### Auswahl invertieren
+
+- <u>Link zu meinem Youtube-Video</u>: [Heilen-Werkzeug benutzen](https://www.youtube.com/watch?v=3jN8K7-6PXA)
+
+### Transparenter Hintergrund für gedownloadete Bilder aus Internet
+
+- <u>Link zu meinem Youtube-Video</u>: [Heilen-Werkzeug benutzen](https://www.youtube.com/watch?v=AC6Z0CtkcKw)
+
+### Hässlicher Hintergrund retouchieren oder unsichtbar machen?
+
+- <u>Link zu meinem Youtube-Video</u>: [Heilen-Werkzeug benutzen](https://www.youtube.com/watch?v=MOC2llLs8Tw)
+
+### Mit Vordergrundfarbe arbeiten
+
+- <u>Link zu meinem Youtube-Video</u>: [Heilen-Werkzeug benutzen](https://www.youtube.com/watch?v=B79b8Nq9BUI)
+
+### Ganz spezifische Flächen wegschneiden oder ausmalen
+
+- <u>Link zu meinem Youtube-Video</u>: [Heilen-Werkzeug benutzen](https://www.youtube.com/watch?v=F9GfQ-89fwk)
+
+### Ebenen vereinen
+
+- <u>Link zu meinem Youtube-Video</u>: [Heilen-Werkzeug benutzen](https://www.youtube.com/watch?v=mjR_F5ioAEs)
+
+### Crop to specific aspect-ratio: Seitenverhältnis steuern
+
+- <u>Link zu meinem Youtube-Video</u>: [Heilen-Werkzeug benutzen](https://www.youtube.com/watch?v=Xdi7Lt0GPuw)
+
+### Blurr-Effekt einfügen: für Texte oder Gesichter
+
+- <u>Link zu meinem Youtube-Video</u>: [Heilen-Werkzeug benutzen](https://www.youtube.com/watch?v=NJZfLfQR37c)
+
+### Kreise zeichnen + Umrisse der Kreise + neuer Kreis um den bestehenden Kreis
+
+- <u>Link zu meinem Youtube-Video</u>: [Heilen-Werkzeug benutzen](https://www.youtube.com/watch?v=a7rKwY9ZBs0)
+
+### Wie mache ich alles schwarz-weiss, ausser etwas bleibt farbig?
+
+- <u>Link zu meinem Youtube-Video</u>: [Heilen-Werkzeug benutzen](https://www.youtube.com/watch?v=TKcnQyiDe5I)
+
+### Beim Einfügen von Bilder: bleiben immer schwarz-weiss, obwohl farbig gewünscht
+
+- <u>Link zu meinem Youtube-Video</u>: [Heilen-Werkzeug benutzen](https://www.youtube.com/watch?v=1EgTp-txiQ0)
+
+## Meine GIMP-Einstellungen
 
 In diesem File gebe ich Dir diverse Angaben zu **meinen Einstellungen**, welche ich für die Bildbearbeitungen verwende:
 
