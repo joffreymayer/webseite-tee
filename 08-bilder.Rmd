@@ -24,6 +24,7 @@ Denke beispielsweise daran, wenn du mit deinem Smartphone nur eine `3G`- oder `4
 > Die Lösung?
 
 - Verwende [BeFunky.com](https://www.befunky.com/), um deine Bilder zu komprimieren.
+- Alternative, die auch andere - modernere(!) - Formate & Kompressionen erreichen kann, ist die Webapp [Squoosh.app](https://squoosh.app/).
 
 ## Das neue `WebP`-Format
 
