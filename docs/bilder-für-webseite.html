@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 7 Visual Studio Code | Tee’s AD-Webseite</title>
-  <meta name="description" content="Chapter 7 Visual Studio Code | Tee’s AD-Webseite" />
+  <title>Chapter 8 Bilder für Webseite | Tee’s AD-Webseite</title>
+  <meta name="description" content="Chapter 8 Bilder für Webseite | Tee’s AD-Webseite" />
   <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 7 Visual Studio Code | Tee’s AD-Webseite" />
+  <meta property="og:title" content="Chapter 8 Bilder für Webseite | Tee’s AD-Webseite" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 7 Visual Studio Code | Tee’s AD-Webseite" />
+  <meta name="twitter:title" content="Chapter 8 Bilder für Webseite | Tee’s AD-Webseite" />
   
   
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="warum-eine-htaccess-datei.html"/>
-<link rel="next" href="bilder-für-webseite.html"/>
+<link rel="prev" href="visual-studio-code.html"/>
+
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -168,75 +168,38 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="visual-studio-code" class="section level1">
-<h1><span class="header-section-number">Chapter 7</span> Visual Studio Code</h1>
-<p>In diesem Kapitel zeige ich dir die nützlichsten Tricks, welche ich im Umgang mit <code>VS-Code</code> gelernt habe.</p>
-<div id="allgemein-nützliches" class="section level2">
-<h2><span class="header-section-number">7.1</span> Allgemein Nützliches</h2>
-<div id="close-working-directory" class="section level3">
-<h3><span class="header-section-number">7.1.1</span> Close Working Directory</h3>
+<div id="bilder-für-webseite" class="section level1">
+<h1><span class="header-section-number">Chapter 8</span> Bilder für Webseite</h1>
+<p>Wenn du Bilder für eine Webseite verwendest, dann sollten diverse Dinge beachtet werden.</p>
+<div id="kompression" class="section level2">
+<h2><span class="header-section-number">8.1</span> Kompression</h2>
+<p>Bilder sollten niemals in ihrer Original-Grösse auf das Web geladen werden, weil diese oftmals viel zu gross sind.</p>
 <blockquote>
-<p>When to use it?</p>
+<p>Das Problem?</p>
 </blockquote>
-<p>If you work on your Website in VS-Code, you will have the current repository as your <code>working-directory</code>. That’s why - when you want to start a completely <em>new</em> project - you will nee this trick:</p>
+<p>Denke beispielsweise daran, wenn du mit deinem Smartphone nur eine <code>3G</code>- oder <code>4G</code>-Internetverbindung hast, dann werden die Ladezeiten langsamer. Wenn du nun nur riesige Bilder von mehreren <code>MB</code> an Grösse hast, dann wird die Seite ewigs laden und die Nutzer werden diese Seite nach kurzer Zeit verlassen, weil es sie aufregt, mit so <strong>langen Ladezeiten</strong> konfrontiert zu sein.</p>
+<blockquote>
+<p>Die Lösung?</p>
+</blockquote>
 <ul>
-<li>Go to <code>File</code> in the top-navigation bar &gt; <code>Close Folder</code> –&gt; Tadah :)</li>
+<li>Verwende <a href="">BeFunky.com</a>, um deine Bilder zu komprimieren.</li>
 </ul>
 </div>
-</div>
-<div id="nützliche-shortcuts" class="section level2">
-<h2><span class="header-section-number">7.2</span> Nützliche Shortcuts</h2>
-<div id="internal-terminal-inside-vs-code" class="section level3">
-<h3><span class="header-section-number">7.2.1</span> Internal Terminal (inside VS-Code)</h3>
+<div id="das-neue-webp-format" class="section level2">
+<h2><span class="header-section-number">8.2</span> Das neue <code>WebP</code>-Format</h2>
+<p>Gemäss <code>Google Lighthouse</code>, gibt es nun ein neues Format, welches besser als <code>.jpeg</code> oder <code>.png</code> ist: das <code>WebP</code>-Format.</p>
+<p><strong>Dieses erlaubt eine noch bessere Kompression der Bilder und kann somit noch schnellere Seitenladezeiten garantieren!</strong></p>
+<blockquote>
+<p>Implementation in Webseite?</p>
+</blockquote>
 <ul>
-<li><code>shift</code> + <code>control</code> + <code>^</code>-Taste</li>
+<li>Folgender HTML-Code sollte implementiert werden:</li>
 </ul>
-</div>
-<div id="automatische-comments" class="section level3">
-<h3><span class="header-section-number">7.2.2</span> Automatische Comments</h3>
-<ul>
-<li><code>shift</code> + <code>command</code> + <code>7</code>-Taste</li>
-</ul>
-</div>
-<div id="rauf-runter-bewegen-von-code-snippets" class="section level3">
-<h3><span class="header-section-number">7.2.3</span> Rauf &amp; runter bewegen von Code-Snippets</h3>
-<ul>
-<li><code>option</code> + <code>Upward-Arrow</code>-Taste</li>
-</ul>
-<p><em>Besonders nützlich, in Kombination mit “automatischen Kommentaren”, wenn man einen Text nicht löschen, sondern einfach ‘für später’ eventuell verwenden will</em>.</p>
-</div>
-<div id="automatic-line-break" class="section level3">
-<h3><span class="header-section-number">7.2.4</span> Automatic Line-Break</h3>
-<ul>
-<li><code>option</code> + <code>z</code>-Taste</li>
-</ul>
-<p><em>Besonders nützlich, wenn man nicht will, dass der Code eeewig auf eine einzige Linie weitergeht (und man dann ständig die “Enter”-Taste drücken muss…)</em>.</p>
-</div>
-<div id="auto-formatting" class="section level3">
-<h3><span class="header-section-number">7.2.5</span> Auto-Formatting</h3>
-<ul>
-<li><code>shift</code> + <code>option</code> + <code>F</code>-Taste</li>
-</ul>
-</div>
-<div id="rename-refactor" class="section level3">
-<h3><span class="header-section-number">7.2.6</span> Rename Refactor</h3>
-<ul>
-<li>Hit <code>F2</code>-Taste (= <code>fn</code> + <code>F2</code>, das in der elektronischen Leiste meines Macs erscheint, wenn du <code>fn</code> drückst), während du im File-Namen oder Variablen-Namen bist, um es über alle Dokumente hinweg zu ändern!</li>
-</ul>
-</div>
-<div id="emmet-shortcuts" class="section level3">
-<h3><span class="header-section-number">7.2.7</span> Emmet Shortcuts</h3>
-<p><code>Emmet</code> is simply a Syntax that VS-Code is able to read - like the <code>Markdown</code>-Syntax for example - and is able to output many fancy stuff.</p>
-</div>
-<div id="building-the-structure-of-an-html-page" class="section level3">
-<h3><span class="header-section-number">7.2.8</span> Building the structure of an HTML-Page</h3>
-<p>For instance - by simply typing <code>!</code> - you can generate a whole HTML-page structured like this:</p>
 <div class="figure">
-<img src="./bilder/vs-code/verwendete-farben.jpg" alt="" />
-<p class="caption">Die 4 Standardfarben, welche ich für die Titel verwende</p>
+<img src="./bilder/bild-optimierung/html-code-webp.png" alt="" />
+<p class="caption">Dieser Code sollte das <code>WebP</code>-Format für moderne Browser garantieren und ansonsten auf das <code>.jpeg</code>-Format zugreifen, wenn es nicht geht.</p>
 </div>
 
-</div>
 </div>
 </div>
             </section>
@@ -244,8 +207,8 @@
           </div>
         </div>
       </div>
-<a href="warum-eine-htaccess-datei.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="bilder-für-webseite.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="visual-studio-code.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -277,7 +240,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/joffreymayer/webseite-tee/edit/master/07-vs-code.Rmd",
+"link": "https://github.com/joffreymayer/webseite-tee/edit/master/08-bilder.Rmd",
 "text": "Edit"
 },
 "history": {
@@ -285,7 +248,7 @@ gitbook.start({
 "text": null
 },
 "view": {
-"link": "https://github.com/joffreymayer/webseite-tee/blob/master/07-vs-code.Rmd",
+"link": "https://github.com/joffreymayer/webseite-tee/blob/master/08-bilder.Rmd",
 "text": null
 },
 "download": null,

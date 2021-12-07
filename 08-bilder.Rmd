@@ -1,0 +1,39 @@
+---
+title: "08-bilder"
+author: "Joffrey Mayer"
+date: "12/7/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Bilder für Webseite
+
+Wenn du Bilder für eine Webseite verwendest, dann sollten diverse Dinge beachtet werden.
+
+## Kompression
+
+Bilder sollten niemals in ihrer Original-Grösse auf das Web geladen werden, weil diese oftmals viel zu gross sind. 
+
+> Das Problem? 
+
+Denke beispielsweise daran, wenn du mit deinem Smartphone nur eine `3G`- oder `4G`-Internetverbindung hast, dann werden die Ladezeiten langsamer. Wenn du nun nur riesige Bilder von mehreren `MB` an Grösse hast, dann wird die Seite ewigs laden und die Nutzer werden diese Seite nach kurzer Zeit verlassen, weil es sie aufregt, mit so **langen Ladezeiten** konfrontiert zu sein.
+
+> Die Lösung?
+
+- Verwende [BeFunky.com](), um deine Bilder zu komprimieren.
+
+## Das neue `WebP`-Format
+
+Gemäss `Google Lighthouse`, gibt es nun ein neues Format, welches besser als `.jpeg` oder `.png` ist: das `WebP`-Format. 
+
+**Dieses erlaubt eine noch bessere Kompression der Bilder und kann somit noch schnellere Seitenladezeiten garantieren!**
+
+> Implementation in Webseite?
+
+- Folgender HTML-Code sollte implementiert werden:
+
+![Dieser Code sollte das `WebP`-Format für moderne Browser garantieren und ansonsten auf das `.jpeg`-Format zugreifen, wenn es nicht geht.](./bilder/bild-optimierung/html-code-webp.png)
+
