@@ -38,3 +38,8 @@ Gemäss `Google Lighthouse`, gibt es nun ein neues Format, welches besser als `.
 
 ![Dieser Code sollte das `WebP`-Format für moderne Browser garantieren und ansonsten auf das `.jpeg`-Format zugreifen, wenn es nicht geht.](./bilder/bild-optimierung/html-code-webp.png)
 
+## Caching when dealing with Phones
+
+Smartphones werden zunehmend der Standard der Webseiten-Branche. In 2020 hat Google sogar bei Webseiten eine sehr wichtige neue Richtlinie eingeführt, welche mit dem Slogan `Smartphones first` betitelt wurde. Somit muss ich nun vor allem die Optimierungs-Kriterien vor allem für Smartphones ausrichten. 
+
+Und eine der wichtigsten Tools - wie es scheint - ist die Einrichtung (auf der Server-Seite) der richtigen Caching-Strategie. Hierzu habe ich einen [ultimativen Guide](https://imagekit.io/blog/ultimate-guide-to-http-caching-for-static-assets/) gefunden, welcher alles erklärt. Insbesondere die Erklärungen ganz am Anfang helfen sehr für das allgemeine Verständnis :)

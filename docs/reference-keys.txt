@@ -60,3 +60,4 @@ building-the-structure-of-an-html-page
 bilder-für-webseite
 kompression
 das-neue-webp-format
+caching-when-dealing-with-phones
