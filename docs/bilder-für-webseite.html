@@ -205,7 +205,19 @@
 <div id="caching-when-dealing-with-phones" class="section level2">
 <h2><span class="header-section-number">8.3</span> Caching when dealing with Phones</h2>
 <p>Smartphones werden zunehmend der Standard der Webseiten-Branche. In 2020 hat Google sogar bei Webseiten eine sehr wichtige neue Richtlinie eingeführt, welche mit dem Slogan <code>Smartphones first</code> betitelt wurde. Somit muss ich nun vor allem die Optimierungs-Kriterien vor allem für Smartphones ausrichten.</p>
-<p>Und eine der wichtigsten Tools - wie es scheint - ist die Einrichtung (auf der Server-Seite) der richtigen Caching-Strategie. Hierzu habe ich einen <a href="https://imagekit.io/blog/ultimate-guide-to-http-caching-for-static-assets/">ultimativen Guide</a> gefunden, welcher alles erklärt. Insbesondere die Erklärungen ganz am Anfang helfen sehr für das allgemeine Verständnis :)</p>
+<p>Und eine der wichtigsten Tools - wie es scheint - ist die Einrichtung (auf der Server-Seite) der richtigen <strong>Caching-Strategie</strong>. Hierzu habe ich einen <a href="https://imagekit.io/blog/ultimate-guide-to-http-caching-for-static-assets/">ultimativen Guide</a> gefunden, welcher alles erklärt. Insbesondere die Erklärungen ganz am Anfang helfen sehr für das allgemeine Verständnis.</p>
+<ul>
+<li>Hier ein Beispiel, wie es in der <code>.htaccess</code>-Datei aufzusetzen wäre, gemäss <a href="https://www.df.eu/blog/http-cache-control-browser-caching-steuern-mit-htaccess/">dieser Webseite</a>:</li>
+</ul>
+<div class="figure">
+<img src="./bilder/bild-optimierung/example-htaccess-caching.png" alt="" />
+<p class="caption">Beispiels-Code für die <code>.htaccess</code>-Datei</p>
+</div>
+<p>Auf dem obigen Beispiel gibt es keinen Hinweis darauf, wie ein <code>Expires</code>-Attribut (= Datum, ab welchem der Browser seinen Cash löschen darf) verwendet werden soll:</p>
+<div class="figure">
+<img src="./bilder/bild-optimierung/example-caching.png" alt="" />
+<p class="caption">Beispiel mit <code>Expires</code>-Attribut</p>
+</div>
 
 </div>
 </div>

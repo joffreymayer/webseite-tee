@@ -42,4 +42,12 @@ Gemäss `Google Lighthouse`, gibt es nun ein neues Format, welches besser als `.
 
 Smartphones werden zunehmend der Standard der Webseiten-Branche. In 2020 hat Google sogar bei Webseiten eine sehr wichtige neue Richtlinie eingeführt, welche mit dem Slogan `Smartphones first` betitelt wurde. Somit muss ich nun vor allem die Optimierungs-Kriterien vor allem für Smartphones ausrichten. 
 
-Und eine der wichtigsten Tools - wie es scheint - ist die Einrichtung (auf der Server-Seite) der richtigen Caching-Strategie. Hierzu habe ich einen [ultimativen Guide](https://imagekit.io/blog/ultimate-guide-to-http-caching-for-static-assets/) gefunden, welcher alles erklärt. Insbesondere die Erklärungen ganz am Anfang helfen sehr für das allgemeine Verständnis :)
+Und eine der wichtigsten Tools - wie es scheint - ist die Einrichtung (auf der Server-Seite) der richtigen **Caching-Strategie**. Hierzu habe ich einen [ultimativen Guide](https://imagekit.io/blog/ultimate-guide-to-http-caching-for-static-assets/) gefunden, welcher alles erklärt. Insbesondere die Erklärungen ganz am Anfang helfen sehr für das allgemeine Verständnis.
+
+- Hier ein Beispiel, wie es in der `.htaccess`-Datei aufzusetzen wäre, gemäss [dieser Webseite](https://www.df.eu/blog/http-cache-control-browser-caching-steuern-mit-htaccess/):
+
+![Beispiels-Code für die `.htaccess`-Datei](./bilder/bild-optimierung/example-htaccess-caching.png)
+
+Auf dem obigen Beispiel gibt es keinen Hinweis darauf, wie ein `Expires`-Attribut (= Datum, ab welchem der Browser seinen Cash löschen darf) verwendet werden soll:
+
+![Beispiel mit `Expires`-Attribut](./bilder/bild-optimierung/example-caching.png)
