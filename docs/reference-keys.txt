@@ -10,6 +10,7 @@ als-erstes-oder-als-erstes
 weder-noch-mit-komma-oder-ohne
 von-tee-häufig-verwendet-wörter
 sonstige-nützliche-adjektive
+next-steps
 effizientes-korrigieren
 methode-um-schnell-effizient-korrekturen-vorzunehmen
 youtube

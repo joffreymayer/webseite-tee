@@ -112,6 +112,7 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 - Ansatz = Lösung
 - auch wenn = obschon 
 - Audiophile = Musikbegeisterte = Klangfanatiker = High-Ender
+- auswirken = einen Effekt haben auf
 - Auszeichnung = Preis = Dekorierung = Anerkennung = Medaille
 - Bau = Konstruktion 
 - beschreiben = charakterisieren = ausdrücken = darstellen
@@ -142,6 +143,7 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 - kontrastieren = gegenüberstellen = abgrenzen = sich abheben von ... = abweichen = herausstechen
 - kreieren = herstellen = konzipieren = schöpfen 
 - Magazin = Revue = Zeitschrift = Heft 
+- montieren = befestigen = anbringen
 - Musikstück = Musikpassage
 - offensichtlich = naheliegend = nachvollziehbar = evident = einleuchtend
 - Perfektionist = Klangfanatiker = Musikbegeisterte
@@ -162,6 +164,7 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 - übertreffen = niederringen = durchsetzen = überbieten = übertrumpfen
 - umsetzen = implementieren
 - verbessern = revidieren = sich steigern = bereichern
+- wirken = den Eindruck / Anschein erwecken
 - Ziel = Vorhaben
 
 ## Ausdrücke
@@ -212,6 +215,8 @@ Hier eine Auflistung aller grammatikalischen Punkte, bei denen ich schon Problem
 - magnifizieren = über sich hinauswachsen = sublimieren = verfeinern = veredeln = verbessern
 - Orgie = Regiment = Heer 
 - ohne jemals schrill oder vulgär zu werden = ohne jedoch aufdringlich zu wirken
+- Raumtiefe = räumliche Tiefe
+- rüberkommen = wirken = scheinen 
 - schon = bereits
 - Temperaturdrift (bei CH Precision Exact Bias) = Temperaturabweichungen
 - ultra böse = abyssal 
@@ -324,3 +329,9 @@ Hier eine Auflistung aller grammatikalischen Punkte, bei denen ich schon Problem
 - vakant = im Augenblick frei, nicht besetzt, offen
 - vehement = heftig, ungestüm
 - versiert = Bescheid wissen, geschickt
+
+## Next Steps
+
+Weil Google nun offiziell die Suchmaschine auf Smartphones priorisiert, würde ich dir vorschlagen, du liest dir folgende Artikel sorgfältig durch:
+
+- https://web.dev/fast/
