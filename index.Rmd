@@ -120,7 +120,10 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 - clever = raffiniert = geschickte
 - Design = Ästhetik
 - Eigenschaft = Merkmal = Charakteristiken = Besonderheiten
-- Eindruck = Empfindung = Wahrnehmung = Anschein = Gefühl 
+- Eindruck = Empfindung = Wahrnehmung = Anschein = Gefühl
+- einen _positiven_ Einfluss haben = begünstigen = einen Nutzen ziehen = einen Vroteil haben = zugutekommen = profitieren = in den Genuss kommen
+- einfach = nur = bloss = lediglich = ausschliesslich
+- empfehlen = sich erweisen = sich anbieten = ratsam erscheinen / sein = sich ergeben  
 - Entwicklung = Konzeption
 - ermöglichen = bewerkstelligen = in die Lage versetzen = die Gelegenheit bieten
 - fein = delikat
@@ -148,6 +151,7 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 - offensichtlich = naheliegend = nachvollziehbar = evident = einleuchtend
 - Perfektionist = Klangfanatiker = Musikbegeisterte
 - Preisinflation in der Hifi = Audiophile Wahnsinn
+- platzieren = positionieren
 - positiv auffallen = brillieren
 - präzise = akribisch
 - reproduzieren = nachbilden = replizieren
@@ -164,8 +168,10 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 - übertreffen = niederringen = durchsetzen = überbieten = übertrumpfen
 - umsetzen = implementieren
 - verbessern = revidieren = sich steigern = bereichern
+- Voodoo = Hokuspokus
 - wirken = den Eindruck / Anschein erwecken
 - Ziel = Vorhaben
+- zusätzlich = ergänzend
 
 ## Ausdrücke
 
@@ -216,6 +222,7 @@ Hier eine Auflistung aller grammatikalischen Punkte, bei denen ich schon Problem
 - Orgie = Regiment = Heer 
 - ohne jemals schrill oder vulgär zu werden = ohne jedoch aufdringlich zu wirken
 - Raumtiefe = räumliche Tiefe
+- Reverberation = Nachhall = Hall 
 - rüberkommen = wirken = scheinen 
 - schon = bereits
 - Temperaturdrift (bei CH Precision Exact Bias) = Temperaturabweichungen
@@ -235,7 +242,7 @@ Hier eine Auflistung aller grammatikalischen Punkte, bei denen ich schon Problem
 - argusäugig = scharf beobachtend, wachsam
 - arkan = geheim, nicht zugänglich
 - arriviert = **angesehen**, **etabliert**, **sich profilieren**
-- **banal** = nichts Besonderes, alltäglich, gewöhnlich
+- **banal** = nichts Besonderes, alltäglich, gewöhnlich, trivial
 - bigott = frömmelnd, scheinheilig
 - **brachial** = handgreiflich, mit roher Körperkraft
 - **designiert** = für etwas (z.B. eine Aufgabe, ein Amt) vorgesehen
