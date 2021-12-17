@@ -121,12 +121,12 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 - Design = Ästhetik
 - Eigenschaft = Merkmal = Charakteristiken = Besonderheiten
 - Eindruck = Empfindung = Wahrnehmung = Anschein = Gefühl
-- einen _positiven_ Einfluss haben = begünstigen = einen Nutzen ziehen = einen Vroteil haben = zugutekommen = profitieren = in den Genuss kommen
+- einen _positiven_ Einfluss haben = begünstigen = einen Nutzen ziehen = einen Vorteil haben = zugutekommen = profitieren = in den Genuss kommen
 - einfach = nur = bloss = lediglich = ausschliesslich
-- empfehlen = sich erweisen = sich anbieten = ratsam erscheinen / sein = sich ergeben  
+- empfehlen = sich erweisen = sich anbieten = ratsam erscheinen / sein = sich ergeben
 - Entwicklung = Konzeption
 - ermöglichen = bewerkstelligen = in die Lage versetzen = die Gelegenheit bieten
-- fein = delikat
+- fein = delikat = empfindlich
 - Feinabstimmung = Justage
 - Frequenzbereich = Frequenzspektrum
 - Fingerspitzengefühl = Gespür
@@ -137,6 +137,7 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 - Gerät = Gerätschaft = Apparatur = Anlage 
 - gleichzeitig = simultan = zugleich
 - Gründer = Eigner
+- High-End System = Anlage = Musiksystem
 - Hörraum = Wohnfläche = Interieur 
 - in der Lage sein = imstande sein = fähig sein
 - Integration = Einbau
@@ -157,6 +158,7 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 - reproduzieren = nachbilden = replizieren
 - Reputation = Renommee
 - rigoros = minuziös = perfektionistisch
+- schlecht = von geringerer Qualität = geringwertig = mangelhaft = dürftig = schwach = ungenügend
 - Schnelligkeit = Geschwindigkeit
 - sehr präzise = hochakkurat
 - sehr klein = bescheiden
@@ -208,9 +210,13 @@ Hier eine Auflistung aller grammatikalischen Punkte, bei denen ich schon Problem
 
 ## Von Tee häufig verwendet Wörter
 
+- Alles ist wie "geölt" = Die Musikperformace hinterlässt einen viel reibungsloseren Gesamteindruck
+- Alles zeigt mehr "Gewicht" = Die Wucht der einzelnen Noten begeistert
 - charakteristisch = hervorstechendes Merkmal = das Kennzeichen der Marke = ausgeprägte Eigenschaft
 - Charge = Belastung = Ladung
 - Densität = Druck = Intensität
+- Die Stimmen bekommen mehr "Humanität" = Die Stimmen gewinnen an Subtilität und Realismus.
+- Die "Quelle" des Streamings ist der Streamer = Der Ursprung des Streamings liegt im Streamer.
 - "Ein- & Ausschalten" der Noten = Ein- & Abklingen der Noten
 - erste Sahne = exquisit = sublim = hochwertig = vorzüglich = exzellent = superb 
 - extasieren = entzücken
@@ -221,6 +227,7 @@ Hier eine Auflistung aller grammatikalischen Punkte, bei denen ich schon Problem
 - magnifizieren = über sich hinauswachsen = sublimieren = verfeinern = veredeln = verbessern
 - Orgie = Regiment = Heer 
 - ohne jemals schrill oder vulgär zu werden = ohne jedoch aufdringlich zu wirken
+- organisch = lebendig
 - Raumtiefe = räumliche Tiefe
 - Reverberation = Nachhall = Hall 
 - rüberkommen = wirken = scheinen 
