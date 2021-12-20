@@ -51,3 +51,8 @@ _Besonders nützlich, wenn man nicht will, dass der Code eeewig auf eine einzige
 For instance - by simply typing `!` - you can generate a whole HTML-page structured like this: 
 
 ![Die 4 Standardfarben, welche ich für die Titel verwende](./bilder/vs-code/verwendete-farben.jpg)
+
+### Multi-Cursor
+
+- Highlight the passage that you want to replace + `shift + command + L-Taste`
+

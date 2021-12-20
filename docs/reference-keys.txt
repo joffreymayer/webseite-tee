@@ -58,6 +58,7 @@ auto-formatting
 rename-refactor
 emmet-shortcuts
 building-the-structure-of-an-html-page
+multi-cursor
 bilder-für-webseite
 kompression
 das-neue-webp-format

@@ -31,7 +31,7 @@ In diesem Template, werde ich dir mein Cheat-Sheet zum Verfassen eines Artikels 
   - Mehr Klarheit
   - Mehr Differenzierung
   - Mehr Intensität
-  - Mehr Fülle = erhöhte Musikpräsenz
+  - Mehr Fülle = erhöhte Musikpräsenz = Mehr Präzision im Klangbild
   - Sensationelle Präzision im Klangbild
   - klangfarbliche Reinheit
   - tonale Neutralität
@@ -71,6 +71,8 @@ In diesem Template, werde ich dir mein Cheat-Sheet zum Verfassen eines Artikels 
 zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
         - Im Stimmenbereich fällt der organische Mitteltöner auf. So können die Phrasierungen und kontrastierende Tonhöhen bei der Aussprache natürlicher und selbstverständlicher wahrgenommen werden, was der Musik-Botschaft einen klaren Authentizitäts-Gewinn verschafft.
         - kristaline Auflösung
+        - Das An- &amp; Abklingen der Noten hält länger an und Spektrum der Klangfarben erweitert sich.
+        - Fülle und Tiefgang: Nun verabschiedet sich bei tiefem Pegel auch der Bass nicht mehr</u>, sodass hoher Klangkontrast auch beim Leisehören besteht.
         
 ## Marken-Artikel
 
@@ -112,10 +114,12 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 - Ansatz = Lösung
 - auch wenn = obschon 
 - Audiophile = Musikbegeisterte = Klangfanatiker = High-Ender
+- Ausserdem = auch = dazu = obendrein = zudem = zusätzlich = des Weiteren = nebstdem = im Übrigen = im Weiteren
 - auswirken = einen Effekt haben auf
 - Auszeichnung = Preis = Dekorierung = Anerkennung = Medaille
 - Bau = Konstruktion 
 - beschreiben = charakterisieren = ausdrücken = darstellen
+- benötigen = brauchen = den Bedarf haben
 - billig = erschwinlich
 - clever = raffiniert = geschickte
 - Design = Ästhetik
@@ -123,15 +127,18 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 - Eindruck = Empfindung = Wahrnehmung = Anschein = Gefühl
 - einen _positiven_ Einfluss haben = begünstigen = einen Nutzen ziehen = einen Vorteil haben = zugutekommen = profitieren = in den Genuss kommen
 - einfach = nur = bloss = lediglich = ausschliesslich
+- Einsatz = Verwendung
 - empfehlen = sich erweisen = sich anbieten = ratsam erscheinen / sein = sich ergeben
 - Entwicklung = Konzeption
-- ermöglichen = bewerkstelligen = in die Lage versetzen = die Gelegenheit bieten
+- Ereignis = Phänomen
+- ermöglichen = bewerkstelligen = erzielen = in die Lage versetzen = die Gelegenheit bieten
+- eruieren = herausfinden
 - fein = delikat = empfindlich
 - Feinabstimmung = Justage
 - Frequenzbereich = Frequenzspektrum
 - Fingerspitzengefühl = Gespür
 - förmlich = buchstäblich = geradezu = praktisch
-- garantieren = sicherstellen
+- garantieren = sicherstellen = gewährleisten
 - Geburt = Aufkommen
 - gelungen = stimmig
 - Gerät = Gerätschaft = Apparatur = Anlage 
@@ -147,9 +154,11 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 - kontrastieren = gegenüberstellen = abgrenzen = sich abheben von ... = abweichen = herausstechen
 - kreieren = herstellen = konzipieren = schöpfen 
 - Magazin = Revue = Zeitschrift = Heft 
+- Massnahme = Handlung = Aktion = Schritt = Tat
 - montieren = befestigen = anbringen
-- Musikstück = Musikpassage
+- Musikstück = Musikpassage = Song 
 - offensichtlich = naheliegend = nachvollziehbar = evident = einleuchtend
+- passieren = sich erreignen = abspielen = vorkommen = eintreffen
 - Perfektionist = Klangfanatiker = Musikbegeisterte
 - Preisinflation in der Hifi = Audiophile Wahnsinn
 - platzieren = positionieren
@@ -165,6 +174,8 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 - seit Kurzem = neurdings
 - souverän = gut
 - ständig = stets = fortlaufend = andauernd
+- tatsächlich = in der Tat = wirklich
+- teuer = ambitioniert
 - Unternehmen = Marke = _Name der Unternehmung_ = Betrieb = Konzern = Manufaktur = Firma = Nobel-Audioschmiede = Start-Up
 - Ursache = Grund 
 - übertreffen = niederringen = durchsetzen = überbieten = übertrumpfen
@@ -172,6 +183,7 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 - verbessern = revidieren = sich steigern = bereichern
 - Voodoo = Hokuspokus
 - wirken = den Eindruck / Anschein erwecken
+- wortwörtlich (literally) = regelrecht
 - Ziel = Vorhaben
 - zusätzlich = ergänzend
 
@@ -212,12 +224,16 @@ Hier eine Auflistung aller grammatikalischen Punkte, bei denen ich schon Problem
 
 - Alles ist wie "geölt" = Die Musikperformace hinterlässt einen viel reibungsloseren Gesamteindruck
 - Alles zeigt mehr "Gewicht" = Die Wucht der einzelnen Noten begeistert
+- Attacken = Noten-Attacken
 - charakteristisch = hervorstechendes Merkmal = das Kennzeichen der Marke = ausgeprägte Eigenschaft
 - Charge = Belastung = Ladung
+- Das "Timing" (von was?) verbessert sich = Die Rhythmik & das Timing im Musikstück
 - Densität = Druck = Intensität
+- Die "Prächte" einer Trompete ... = Der Glanz einer Trompete ...
 - Die Stimmen bekommen mehr "Humanität" = Die Stimmen gewinnen an Subtilität und Realismus.
 - Die "Quelle" des Streamings ist der Streamer = Der Ursprung des Streamings liegt im Streamer.
 - "Ein- & Ausschalten" der Noten = Ein- & Abklingen der Noten
+- erschreckende "Fulminanz" = erschreckende Geschwindigkeit aufblitzen
 - erste Sahne = exquisit = sublim = hochwertig = vorzüglich = exzellent = superb 
 - extasieren = entzücken
 - Im Ei töten = Im Keim ersticken
@@ -225,17 +241,20 @@ Hier eine Auflistung aller grammatikalischen Punkte, bei denen ich schon Problem
 - klanglich besser als ... = klanglich einen höherwertigeren Gesamteindruck
 - majestuös = prächtig
 - magnifizieren = über sich hinauswachsen = sublimieren = verfeinern = veredeln = verbessern
+- mühsam = delikat = vorsichtig
 - Orgie = Regiment = Heer 
 - ohne jemals schrill oder vulgär zu werden = ohne jedoch aufdringlich zu wirken
 - organisch = lebendig
 - Raumtiefe = räumliche Tiefe
-- Reverberation = Nachhall = Hall 
+- Raum-Reverberation = Nachhall = Hall = Lufterschütterung durch den Schall
+- "richtigen" Dosis = der notwendigen Dosis an Wärme, um "Bedingung XY" zu erfüllen
 - rüberkommen = wirken = scheinen 
 - schon = bereits
 - Temperaturdrift (bei CH Precision Exact Bias) = Temperaturabweichungen
 - ultra böse = abyssal 
+- ultra-präzis = mit akribischer Sorgfalt
 - Valeur sûre = eine sichere Investition 
-- wir sind verliebt // wir sind eingeliebt = wir sind entzückt 
+- wir sind verliebt // wir sind eingeliebt = wir sind entzückt
 
 ## Sonstige nützliche Adjektive
 
@@ -333,7 +352,7 @@ Hier eine Auflistung aller grammatikalischen Punkte, bei denen ich schon Problem
 - sibyllinisch = rätselhaft, orakelhaft
 - **skurril** = seltsam, **befremdlich**
 - sublim = erhaben, verfeinert
-- **subtil** = mit Feingefühl, mit Sorgfalt
+- **subtil** = mit Feingefühl, mit Sorgfalt = delikat
 - **superb** = ausgezeichnet, vorzüglich, aussergewöhnlich
 - tolerabel = annehmbar, **erträglich**
 - tradiert = überliefert, traditionell
