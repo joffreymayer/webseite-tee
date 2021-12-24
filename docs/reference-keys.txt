@@ -13,6 +13,10 @@ sonstige-nützliche-adjektive
 next-steps
 effizientes-korrigieren
 methode-um-schnell-effizient-korrekturen-vorzunehmen
+aufabu-einer-webseite
+notwendige-technische-sachen
+useful-sections
+useful-interactions-for-users
 youtube
 allgmein-nützliche-tricks
 make-a-link-directly-to-the-relevant-part-of-a-youtube-video

@@ -13,3 +13,33 @@ Wenn mir Tee seine Texte zu korrgieren gibt, solltest du die folgenden Programme
 - [Öffne das Markdown-File für Synonyme & Fachwörter](./index.html), welches du selbst erstellt hast, um häufig auftauchende Probleme - z.B. bessere Wörter, genauere Ausdrücke oder Beschreibungen etc. - schneller zu regeln.
   - <u>Achtung</u>: Öffne dieses File nicht als Markdown, sondern als HTML-File, sonst wirst du eine Error-Message erhalten, wenn du es "knittest"!
 - Deine Email, wenn Tee dir neue / alternative Versionen schickt.
+
+## Aufabu einer Webseite
+
+### Notwendige technische Sachen
+
+- <u>Typische Device-Breakpoints für Responsive-Design</u>: https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp
+- <u>How to use Flexbox-Model</u>: https://www.internetingishard.com/
+- <u>Theory behind how to use `font-size` correctly for responsive-design websites</u>: https://www.w3schools.com/howto/howto_css_responsive_text.asp
+- 
+
+### Useful Sections
+
+- <u>Video - Activate Full Screen</u>: https://www.w3schools.com/howto/howto_css_fullscreen_video.asp
+- <u>Make a Timeline</u>: https://www.w3schools.com/howto/howto_css_timeline.asp
+- <u>Skillbar</u>: https://www.w3schools.com/howto/howto_css_skill_bar.asp
+- <u>Übersicht erfolreich absolvierte Projekte</u>: https://www.w3schools.com/howto/howto_css_section_counter.asp
+- <u>Produkt-Karten</u>: https://www.w3schools.com/howto/howto_css_product_card.asp
+- <u>Twitter-Quotes for Marketing</u>: https://www.w3schools.com/howto/howto_js_quotes_slideshow.asp
+- <u>Mitarbeiter-Vorstellung</u>: https://www.w3schools.com/howto/howto_css_profile_card.asp
+- <u>Fancy "Self-Writing"
+- <u>Story-Telling mittels What's App Nachrichten</u>: https://www.w3schools.com/howto/howto_css_chat.asp
+
+
+### Useful Interactions for Users:
+- <u>Little Info-Boxes appearing when hovering over</u>: https://www.w3schools.com/howto/howto_css_tooltip.asp
+- <u>Collapsible Content for FAQs</u>: https://www.w3schools.com/howto/howto_js_collapsible.asp
+- <u>Create a User-Rating</u>: https://www.w3schools.com/howto/howto_css_user_rating.asp
+- <u>Autoren-Kommentare klar high-lighten</u>: https://www.w3schools.com/howto/howto_css_notes.asp
+- <u>Overlay Content when clicking on - for example - an image</u>: https://www.w3schools.com/howto/howto_css_overlay.asp
+  - <u>Beispiel für Umsetzung</u>: https://www.4frankfurt.de/de/home/

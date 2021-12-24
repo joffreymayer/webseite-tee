@@ -157,6 +157,7 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 - Massnahme = Handlung = Aktion = Schritt = Tat
 - montieren = befestigen = anbringen
 - Musikstück = Musikpassage = Song 
+- natürlich = mit Sicherheit = zweifelsfrei
 - offensichtlich = naheliegend = nachvollziehbar = evident = einleuchtend
 - passieren = sich erreignen = abspielen = vorkommen = eintreffen
 - Perfektionist = Klangfanatiker = Musikbegeisterte
@@ -222,16 +223,17 @@ Hier eine Auflistung aller grammatikalischen Punkte, bei denen ich schon Problem
 
 ## Von Tee häufig verwendet Wörter
 
-- Alles ist wie "geölt" = Die Musikperformace hinterlässt einen viel reibungsloseren Gesamteindruck
+- "Alles" ist wie "geölt" = Die Musikperformace hinterlässt einen viel reibungsloseren Gesamteindruck = 
 - Alles zeigt mehr "Gewicht" = Die Wucht der einzelnen Noten begeistert
 - Attacken = Noten-Attacken
 - charakteristisch = hervorstechendes Merkmal = das Kennzeichen der Marke = ausgeprägte Eigenschaft
 - Charge = Belastung = Ladung
 - Das "Timing" (von was?) verbessert sich = Die Rhythmik & das Timing im Musikstück
 - Densität = Druck = Intensität
+- Der Musikfluss ist "natürlicher" = Der Musikfluss ist realitätsgetreuer
 - Die "Prächte" einer Trompete ... = Der Glanz einer Trompete ...
-- Die Stimmen bekommen mehr "Humanität" = Die Stimmen gewinnen an Subtilität und Realismus.
 - Die "Quelle" des Streamings ist der Streamer = Der Ursprung des Streamings liegt im Streamer.
+- Die Stimmen bekommen mehr "Humanität" = Die Stimmen gewinnen an Subtilität und Realismus.
 - "Ein- & Ausschalten" der Noten = Ein- & Abklingen der Noten
 - erschreckende "Fulminanz" = erschreckende Geschwindigkeit aufblitzen
 - erste Sahne = exquisit = sublim = hochwertig = vorzüglich = exzellent = superb 
@@ -243,12 +245,13 @@ Hier eine Auflistung aller grammatikalischen Punkte, bei denen ich schon Problem
 - magnifizieren = über sich hinauswachsen = sublimieren = verfeinern = veredeln = verbessern
 - mühsam = delikat = vorsichtig
 - Orgie = Regiment = Heer 
-- ohne jemals schrill oder vulgär zu werden = ohne jedoch aufdringlich zu wirken
+- "ohne nie" = ohne jemals schrill oder vulgär zu werden = ohne jedoch aufdringlich zu wirken
 - organisch = lebendig
 - Raumtiefe = räumliche Tiefe
 - Raum-Reverberation = Nachhall = Hall = Lufterschütterung durch den Schall
 - "richtigen" Dosis = der notwendigen Dosis an Wärme, um "Bedingung XY" zu erfüllen
-- rüberkommen = wirken = scheinen 
+- rüberkommen = wirken = scheinen
+- kombiniert mit enormen "Schmelz" bei der Musikwiedergabe = kombiniert mit der zärtlichster Substanz
 - schon = bereits
 - Temperaturdrift (bei CH Precision Exact Bias) = Temperaturabweichungen
 - ultra böse = abyssal 
