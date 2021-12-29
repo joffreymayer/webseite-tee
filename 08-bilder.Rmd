@@ -13,6 +13,59 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Wenn du Bilder für eine Webseite verwendest, dann sollten diverse Dinge beachtet werden.
 
+## CSS für Bilder
+
+### Allgemeines Set-Up
+
+Damit sich die Bilder im Browser korrekt verhalten, brauchst du folgende CSS-Befehle auf dem `<img>`-Tag:
+
+```
+img { /* For a correct image-behavior, we need these two properties. */
+    width: 100%;
+    height: auto;
+}
+```
+
+### Resize ALL Images the Same AND Maintain Aspect-Ratios
+
+Angenommen, du verwendest verschieden grosse Bilder, möchtest diese jedoch alle gleich gross machen und dabei die :
+
+![Das Problem: Nicht gleich grosse Bilder](./bilder/bild-optimierung/wrong-ar.png)
+
+Der Trick hier ist, dass - _wenn du den Bildern nun eine Custom-CSS-Klasse mit der `height` des **kleinsten** Bilds gibst (hier der CH-Precision)_ - sich dann die Aspect-Ratio aller Bilder automatisch anpasst:
+
+```
+.product-item-image {
+    height: 250px; /*VERY IMPORTANT for Aspect-Ratios of <img>-Tag: If you set a height for your image, the browser will automatically adapt the width of the image, in order to keep the correct aspect-ratio. Set this according to how you like it!*/
+    object-fit: cover; /*Specifies how an object (image or video) should fit inside its box (= parent-element). When you use Object-fit: "cover" --> overflows box but maintains ratio, which is a very important property to have for images!*/
+    width: 100%;
+}
+```
+
+Der obige Code wird [von 98% der Browser unterstützt](https://caniuse.com/?search=object-fit%3A%20cover).
+
+Das Resultat sieht dann so aus:
+
+![Die Lösung: Kreiere eine neue CSS-Klasse und definiere dann entweder eine neue `height` oder `width`. Dadurch passt sich die `width` respektive die `height` automatisch an.](./bilder/bild-optimierung/correct-ar.png)
+
+- <u>Nachteil dieser Methode</u>: Es Cropt die Bilder, die sich anpassen müssen! 
+  - <u>Lösung, um dieses Problem zu umgehen</u>: Du musst mitels GIMP die Apsect-Ratios gleich machen. Dabei wirst du allerdings auch Croppen müssen...
+  
+### Strange small white-space below Image used as a Produkt-Karte
+
+- The issue I had was exactly described in this Stack-Overflow-Post: https://stackoverflow.com/questions/5804256/image-inside-div-has-extra-space-below-the-image/5804278
+
+The solution to this is to simply display the image in the Produkt-Karte with a `block`-value:
+
+```
+.product-item-image {
+    display: block; /* Debuging: I had a strange white-space between the image and my Card-Description. This issue can be resolved when using the property "block" on the image.
+        - Example of the exact issue I had, is on Stack-Overflow: https://stackoverflow.com/questions/5804256/image-inside-div-has-extra-space-below-the-image/5804278
+    */
+}
+```
+
+
 ## Kompression
 
 Bilder sollten niemals in ihrer Original-Grösse auf das Web geladen werden, weil diese oftmals viel zu gross sind. 

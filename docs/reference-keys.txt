@@ -64,6 +64,13 @@ emmet-shortcuts
 building-the-structure-of-an-html-page
 multi-cursor
 bilder-für-webseite
+css-für-bilder
+allgemeines-set-up
+resize-all-images-the-same-and-maintain-aspect-ratios
+strange-small-white-space-below-image-used-as-a-produkt-karte
 kompression
 das-neue-webp-format
 caching-when-dealing-with-phones
+css-tricks
+responsive-design-use-media-queries
+sonstiges

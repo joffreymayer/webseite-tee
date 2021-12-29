@@ -1,0 +1,40 @@
+# CSS-Tricks
+
+## Responsive-Design: use Media-Queries
+
+Wenn du eine Webseite kreierst, dann musst du zuallerst sicherstellen, dass die Webseite sowohl für Smartphones, aber auch für Tablets und Desktops super aussieht. 
+
+_Dies wird mittels sogenannten `Media-Queries` bewerktstelligt_.
+
+Im Folgenden habe ich dir diejenigen Mediaqueries eingeblendet, die öfters vorkommen:
+
+```
+/* --- Extra-Small devices (phones, 400px and down) --- */
+@media only screen and (max-width: 400px) {...}
+
+/* --- Small devices (phones, 600px and down) --- */
+@media only screen and (min-width: 600px) {...}
+
+/* Pretty small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+```
+
+Wenn du auf Screen-Grössen **zwischen** zwei bestimmten Werten abzielst, dann kann man dies auch tun: 
+
+```
+
+```
+
+## Sonstiges
+
+- `100 vh` = Full screen of the Browser-Fenster.
+  - <u>Apple zum Beispiel verwendet</u>: `35vh` und `55vh`.

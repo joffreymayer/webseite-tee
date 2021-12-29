@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 6 Warum eine htaccess-Datei? | Tee’s AD-Webseite</title>
-  <meta name="description" content="Chapter 6 Warum eine htaccess-Datei? | Tee’s AD-Webseite" />
+  <title>Chapter 9 CSS-Tricks | Tee’s AD-Webseite</title>
+  <meta name="description" content="Chapter 9 CSS-Tricks | Tee’s AD-Webseite" />
   <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 6 Warum eine htaccess-Datei? | Tee’s AD-Webseite" />
+  <meta property="og:title" content="Chapter 9 CSS-Tricks | Tee’s AD-Webseite" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 6 Warum eine htaccess-Datei? | Tee’s AD-Webseite" />
+  <meta name="twitter:title" content="Chapter 9 CSS-Tricks | Tee’s AD-Webseite" />
   
   
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="instagram.html"/>
-<link rel="next" href="visual-studio-code.html"/>
+<link rel="prev" href="bilder-für-webseite.html"/>
+
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -185,26 +185,41 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="warum-eine-htaccess-datei" class="section level1">
-<h1><span class="header-section-number">Chapter 6</span> Warum eine htaccess-Datei?</h1>
-<p>Manchmal wirst du gezwungen sein, Server-Einstellungen vorzunehmen, beispielsweise:</p>
+<div id="css-tricks" class="section level1">
+<h1><span class="header-section-number">Chapter 9</span> CSS-Tricks</h1>
+<div id="responsive-design-use-media-queries" class="section level2">
+<h2><span class="header-section-number">9.1</span> Responsive-Design: use Media-Queries</h2>
+<p>Wenn du eine Webseite kreierst, dann musst du zuallerst sicherstellen, dass die Webseite sowohl für Smartphones, aber auch für Tablets und Desktops super aussieht.</p>
+<p><em>Dies wird mittels sogenannten <code>Media-Queries</code> bewerktstelligt</em>.</p>
+<p>Im Folgenden habe ich dir diejenigen Mediaqueries eingeblendet, die öfters vorkommen:</p>
+<pre><code>/* --- Extra-Small devices (phones, 400px and down) --- */
+@media only screen and (max-width: 400px) {...}
+
+/* --- Small devices (phones, 600px and down) --- */
+@media only screen and (min-width: 600px) {...}
+
+/* Pretty small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}</code></pre>
+<p>Wenn du auf Screen-Grössen <strong>zwischen</strong> zwei bestimmten Werten abzielst, dann kann man dies auch tun:</p>
+<pre><code></code></pre>
+</div>
+<div id="sonstiges" class="section level2">
+<h2><span class="header-section-number">9.2</span> Sonstiges</h2>
 <ul>
-<li>Wenn ich den <strong>Titel von HTML-Seiten umbenenne</strong>.
+<li><code>100 vh</code> = Full screen of the Browser-Fenster.
 <ul>
-<li><u>Problem</u>: Dies verändert die URL der Webseite, wodurch ich gezwungen werde, die ursprüngliche HTML-Seite - mit dem <em>alten</em> Titel - zu redirecten (mit einer 301-Weiterleitung), ansosten <strong>verlierst du den Page-Rank</strong>.</li>
-</ul></li>
-<li>Wenn ich <strong>HTML-Seiten komplett von meiner Webseite lösche</strong>, muss der Server eine 410-Error (“gone”) oder 404-Error (“information not found”) angeben.
-<ul>
-<li><u>Problem</u>: Wenn ich der Google-Suchmaschine nicht explizit sage, dass ich gewisse HTML-Files von meiner Webseite gelöscht habe, dann wird es mich mit <strong>schlechteren Rankings auf meiner Webseite</strong> bestrafen.</li>
+<li><u>Apple zum Beispiel verwendet</u>: <code>35vh</code> und <code>55vh</code>.</li>
 </ul></li>
 </ul>
-<p><em>Alle diese Dinge kannst du via einer <code>.htaccess</code>-Datei steuern. Es ist eine sehr mächtige Datei, welche nur auf dem Server ersichtlich ist</em>.</p>
-<p><u>Achtung</u>: Fehler im Code können dazu führen, dass deine gesamte Webseite crasht, deshalb ist hier vorsicht geboten!</p>
-<div id="lösche-eine-html-seite-von-der-webseite-410-error" class="section level3">
-<h3><span class="header-section-number">6.0.1</span> Lösche eine HTML-Seite von der Webseite (410-Error)</h3>
-<p>Code, den ich in den Root-Folder meiner Webseite in der <code>.htaccess</code>-Datei eingeben sollte:</p>
-<pre><code>Redirect gone /path/path/folder/
-ErrorDocument 410 default</code></pre>
 
 </div>
 </div>
@@ -213,8 +228,8 @@ ErrorDocument 410 default</code></pre>
           </div>
         </div>
       </div>
-<a href="instagram.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="visual-studio-code.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="bilder-für-webseite.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -246,7 +261,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/joffreymayer/webseite-tee/edit/master/06-htaccess.Rmd",
+"link": "https://github.com/joffreymayer/webseite-tee/edit/master/09-css.Rmd",
 "text": "Edit"
 },
 "history": {
@@ -254,7 +269,7 @@ gitbook.start({
 "text": null
 },
 "view": {
-"link": "https://github.com/joffreymayer/webseite-tee/blob/master/06-htaccess.Rmd",
+"link": "https://github.com/joffreymayer/webseite-tee/blob/master/09-css.Rmd",
 "text": null
 },
 "download": null,

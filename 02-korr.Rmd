@@ -19,7 +19,8 @@ Wenn mir Tee seine Texte zu korrgieren gibt, solltest du die folgenden Programme
 ### Notwendige technische Sachen
 
 - <u>Typische Device-Breakpoints für Responsive-Design</u>: https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp
-- <u>How to use Flexbox-Model</u>: https://www.internetingishard.com/
+- <u>How to use Flexbox-Model to layout a webpage</u>: https://www.internetingishard.com/
+- <u>How to use CSS-Grid to layout a webpage</u>: https://www.w3schools.com/css/css_grid.asp
 - <u>Theory behind how to use `font-size` correctly for responsive-design websites</u>: https://www.w3schools.com/howto/howto_css_responsive_text.asp
 - 
 
@@ -29,10 +30,12 @@ Wenn mir Tee seine Texte zu korrgieren gibt, solltest du die folgenden Programme
 - <u>Make a Timeline</u>: https://www.w3schools.com/howto/howto_css_timeline.asp
 - <u>Skillbar</u>: https://www.w3schools.com/howto/howto_css_skill_bar.asp
 - <u>Übersicht erfolreich absolvierte Projekte</u>: https://www.w3schools.com/howto/howto_css_section_counter.asp
+- <u>Video - Create a very fancy (responsive) Image-Gallery with CSS-Grid Layout</u>: https://www.youtube.com/watch?v=2gLl2ZwJHHY
 - <u>Produkt-Karten</u>: https://www.w3schools.com/howto/howto_css_product_card.asp
+- <u>Fancy Produkt-Karten | Instagram-Tutorial</u>: https://www.instagram.com/p/CVAix4NjjZY/?utm_medium=share_sheet
 - <u>Twitter-Quotes for Marketing</u>: https://www.w3schools.com/howto/howto_js_quotes_slideshow.asp
 - <u>Mitarbeiter-Vorstellung</u>: https://www.w3schools.com/howto/howto_css_profile_card.asp
-- <u>Fancy "Self-Writing"
+- <u>Fancy "Self-Writing" Effect</u>:
 - <u>Story-Telling mittels What's App Nachrichten</u>: https://www.w3schools.com/howto/howto_css_chat.asp
 
 
