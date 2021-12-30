@@ -210,12 +210,8 @@
 <p>Bei <code>CSS</code> gibt es eine Vielzahl an sogenannten <em>Operatoren</em>, die verwendet werden, um die jeweiligen HTML-Elemente zu selektionieren.</p>
 <p>Ich habe hier eine <strong>Liste mit den wichtigsten CSS-Operatoren</strong> erstellt:</p>
 <ul>
-<li><code>.main-container &gt; h2</code>: Selects all the
-<h2>
--Tags that are a DIRECT Child of the class ‘.main-container’.</li>
-<li><code>div.main-container.green</code>: Select all the
-<div>
--Tags, that have the class ‘.main-container’ <strong>AND</strong> also the ‘.green’ class.</li>
+<li><code>.main-container &gt; h2</code>: Selects all the <code>&lt;h2&gt;</code>-Tags that are a DIRECT Child of the class ‘.main-container’.</li>
+<li><code>div.main-container.green</code>: Select all the <code>&lt;div&gt;</code>-Tags, that have the class ‘.main-container’ <strong>AND</strong> also the ‘.green’ class.</li>
 <li><code>.main-container, .red</code>: Notice the <em>comma</em> when I wrote the two classes! This means that we are going to select all HTML-Elements that have the class ‘.main-container’ <strong>OR</strong> the class ‘.red’.</li>
 <li><code>.main-container .blue</code>: Select all HTML-elements with the class ‘.main-container’ and - <strong>WITHIN</strong> those HTML-Element with the ‘.main-container’-class - it selects all the HTML-Elements that have - additionally - the class ‘.blue’. If both of these conditions are <em>NOT</em> simulatenously met, then it will <em>NOT</em> apply the blue-background color!!! Note that <strong>WITHIN</strong> means <em>not necessarily</em> that the nested HTML-Element should be a <em>direct</em> child of the ‘.main-container’ element!</li>
 </ul>
@@ -322,11 +318,7 @@
   width: 300px;
   padding: 25px;
 }</code></pre>
-Here, the
-<div>
-element is given a width of 300px. However, the actual width of the
-<div>
-<p>element will be 350px (300px + 25px of left padding + 25px of right padding). To keep the width at 300px, no matter the amount of padding, you can use the box-sizing property. This causes the element to maintain its actual width; if you increase the padding, the available content space will decrease.</p>
+<p>Here, the <code>&lt;div&gt;</code>-element is given a <code>width</code> of 300px. However, the actual width of the <code>&lt;div&gt;</code>-element will be 350px (300px + 25px of left padding + 25px of right padding). To keep the width at 300px, no matter the amount of padding, you can use the box-sizing property. This causes the element to maintain its actual width; if you increase the padding, the available content space will decrease.</p>
 <ul>
 <li><u>Beispiel zur Illustration</u>: <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_padding_width2" class="uri">https://www.w3schools.com/css/tryit.asp?filename=trycss_padding_width2</a></li>
 </ul>

@@ -6,8 +6,8 @@ Bei `CSS` gibt es eine Vielzahl an sogenannten *Operatoren*, die verwendet werde
 
 Ich habe hier eine **Liste mit den wichtigsten CSS-Operatoren** erstellt:
 
-- `.main-container > h2`: Selects all the <h2>-Tags that are a DIRECT Child  of the class '.main-container'. 
-- `div.main-container.green`: Select all the <div>-Tags, that have the class '.main-container' **AND** also the '.green' class.
+- `.main-container > h2`: Selects all the `<h2>`-Tags that are a DIRECT Child  of the class '.main-container'. 
+- `div.main-container.green`: Select all the `<div>`-Tags, that have the class '.main-container' **AND** also the '.green' class.
 - `.main-container, .red`: Notice the *comma* when I wrote the two classes! This means that we are going to select all HTML-Elements that have the class '.main-container' **OR** the class '.red'.
 - `.main-container .blue`: Select all HTML-elements with the class '.main-container' and - **WITHIN** those HTML-Element with the '.main-container'-class - it selects all the HTML-Elements that have - additionally - the class '.blue'. If both of these conditions are *NOT* simulatenously met, then it will *NOT* apply the blue-background color!!! Note that **WITHIN** means _not necessarily_ that the nested HTML-Element should be a _direct_ child of the '.main-container' element! 
 
@@ -127,7 +127,7 @@ div {
 }
 ```
 
-Here, the <div> element is given a width of 300px. However, the actual width of the <div> element will be 350px (300px + 25px of left padding + 25px of right padding). To keep the width at 300px, no matter the amount of padding, you can use the box-sizing property. This causes the element to maintain its actual width; if you increase the padding, the available content space will decrease.
+Here, the `<div>`-element is given a `width` of 300px. However, the actual width of the `<div>`-element will be 350px (300px + 25px of left padding + 25px of right padding). To keep the width at 300px, no matter the amount of padding, you can use the box-sizing property. This causes the element to maintain its actual width; if you increase the padding, the available content space will decrease.
 
 - <u>Beispiel zur Illustration</u>: https://www.w3schools.com/css/tryit.asp?filename=trycss_padding_width2
 
