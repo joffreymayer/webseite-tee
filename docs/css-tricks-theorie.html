@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 8 Bilder für Webseite | Tee’s AD-Webseite</title>
-  <meta name="description" content="Chapter 8 Bilder für Webseite | Tee’s AD-Webseite" />
+  <title>Chapter 9 CSS-Tricks &amp; Theorie | Tee’s AD-Webseite</title>
+  <meta name="description" content="Chapter 9 CSS-Tricks &amp; Theorie | Tee’s AD-Webseite" />
   <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 8 Bilder für Webseite | Tee’s AD-Webseite" />
+  <meta property="og:title" content="Chapter 9 CSS-Tricks &amp; Theorie | Tee’s AD-Webseite" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 8 Bilder für Webseite | Tee’s AD-Webseite" />
+  <meta name="twitter:title" content="Chapter 9 CSS-Tricks &amp; Theorie | Tee’s AD-Webseite" />
   
   
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="visual-studio-code.html"/>
-<link rel="next" href="css-tricks-theorie.html"/>
+<link rel="prev" href="bilder-für-webseite.html"/>
+
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -203,104 +203,211 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="bilder-für-webseite" class="section level1">
-<h1><span class="header-section-number">Chapter 8</span> Bilder für Webseite</h1>
-<p>Wenn du Bilder für eine Webseite verwendest, dann sollten diverse Dinge beachtet werden.</p>
-<div id="css-für-bilder" class="section level2">
-<h2><span class="header-section-number">8.1</span> CSS für Bilder</h2>
-<div id="allgemeines-set-up" class="section level3">
-<h3><span class="header-section-number">8.1.1</span> Allgemeines Set-Up</h3>
-<p>Damit sich die Bilder im Browser korrekt verhalten, brauchst du folgende CSS-Befehle auf dem <code>&lt;img&gt;</code>-Tag:</p>
-<pre><code>img { /* For a correct image-behavior, we need these two properties. */
-    width: 100%;
-    height: auto;
+<div id="css-tricks-theorie" class="section level1">
+<h1><span class="header-section-number">Chapter 9</span> CSS-Tricks &amp; Theorie</h1>
+<div id="css-operatoren" class="section level2">
+<h2><span class="header-section-number">9.1</span> CSS Operatoren</h2>
+<p>Bei <code>CSS</code> gibt es eine Vielzahl an sogenannten <em>Operatoren</em>, die verwendet werden, um die jeweiligen HTML-Elemente zu selektionieren.</p>
+<p>Ich habe hier eine <strong>Liste mit den wichtigsten CSS-Operatoren</strong> erstellt:</p>
+<ul>
+<li><code>.main-container &gt; h2</code>: Selects all the
+<h2>
+-Tags that are a DIRECT Child of the class ‘.main-container’.</li>
+<li><code>div.main-container.green</code>: Select all the
+<div>
+-Tags, that have the class ‘.main-container’ <strong>AND</strong> also the ‘.green’ class.</li>
+<li><code>.main-container, .red</code>: Notice the <em>comma</em> when I wrote the two classes! This means that we are going to select all HTML-Elements that have the class ‘.main-container’ <strong>OR</strong> the class ‘.red’.</li>
+<li><code>.main-container .blue</code>: Select all HTML-elements with the class ‘.main-container’ and - <strong>WITHIN</strong> those HTML-Element with the ‘.main-container’-class - it selects all the HTML-Elements that have - additionally - the class ‘.blue’. If both of these conditions are <em>NOT</em> simulatenously met, then it will <em>NOT</em> apply the blue-background color!!! Note that <strong>WITHIN</strong> means <em>not necessarily</em> that the nested HTML-Element should be a <em>direct</em> child of the ‘.main-container’ element!</li>
+</ul>
+</div>
+<div id="responsive-design-use-media-queries" class="section level2">
+<h2><span class="header-section-number">9.2</span> Responsive-Design: use Media-Queries</h2>
+<p>Wenn du eine Webseite kreierst, dann musst du zuallerst sicherstellen, dass die Webseite sowohl für Smartphones, aber auch für Tablets und Desktops super aussieht.</p>
+<p><em>Dies wird mittels sogenannten <code>Media-Queries</code> bewerktstelligt</em>.</p>
+<p>Im Folgenden habe ich dir diejenigen Mediaqueries eingeblendet, die öfters vorkommen:</p>
+<pre><code>/* --- Extra-Small devices (phones, 400px and down) --- */
+@media only screen and (max-width: 400px) {...}
+
+/* --- Small devices (phones, 600px and down) --- */
+@media only screen and (min-width: 600px) {...}
+
+/* Pretty small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}</code></pre>
+<p>Wenn du auf Screen-Grössen <strong>zwischen</strong> zwei bestimmten Werten abzielst, dann kann man dies auch tun:</p>
+<pre><code>@media only screen and (min-width: 480px) and (max-width: 989px) {
 }</code></pre>
 </div>
-<div id="resize-all-images-the-same-and-maintain-aspect-ratios" class="section level3">
-<h3><span class="header-section-number">8.1.2</span> Resize ALL Images the Same AND Maintain Aspect-Ratios</h3>
-<p>Angenommen, du verwendest verschieden grosse Bilder, möchtest diese jedoch alle gleich gross machen und dabei die :</p>
-<div class="figure">
-<img src="./bilder/bild-optimierung/wrong-ar.png" alt="" />
-<p class="caption">Das Problem: Nicht gleich grosse Bilder</p>
-</div>
-<p>Der Trick hier ist, dass - <em>wenn du den Bildern nun eine Custom-CSS-Klasse mit der <code>height</code> des <strong>kleinsten</strong> Bilds gibst (hier der CH-Precision)</em> - sich dann die Aspect-Ratio aller Bilder automatisch anpasst:</p>
-<pre><code>.product-item-image {
-    height: 250px; /*VERY IMPORTANT for Aspect-Ratios of &lt;img&gt;-Tag: If you set a height for your image, the browser will automatically adapt the width of the image, in order to keep the correct aspect-ratio. Set this according to how you like it!*/
-    object-fit: cover; /*Specifies how an object (image or video) should fit inside its box (= parent-element). When you use Object-fit: &quot;cover&quot; --&gt; overflows box but maintains ratio, which is a very important property to have for images!*/
-    width: 100%;
+<div id="padding-abkürzung" class="section level2">
+<h2><span class="header-section-number">9.3</span> Padding-Abkürzung</h2>
+<p>Es gibt bei CSS diverse Abkürzungen, insbesondere wirst du vor allem diejenige <code>margin</code> und <code>padding</code> sehr oft begenenen:</p>
+<div id="fall-1-margin-padding-has-4-values" class="section level3">
+<h3><span class="header-section-number">9.3.1</span> Fall 1: Margin / Padding has 4 Values</h3>
+<pre><code>div {
+  padding: 25px 50px 75px 100px;
 }</code></pre>
-<p>Der obige Code wird <a href="https://caniuse.com/?search=object-fit%3A%20cover">von 98% der Browser unterstützt</a>.</p>
-<p>Das Resultat sieht dann so aus:</p>
-<div class="figure">
-<img src="./bilder/bild-optimierung/correct-ar.png" alt="" />
-<p class="caption">Die Lösung: Kreiere eine neue CSS-Klasse und definiere dann entweder eine neue <code>height</code> oder <code>width</code>. Dadurch passt sich die <code>width</code> respektive die <code>height</code> automatisch an.</p>
-</div>
+<p><em>Die Merkregel ist diejenige: es dreht sich im Uhrzeigersinn</em>.</p>
 <ul>
-<li><u>Nachteil dieser Methode</u>: Es Cropt die Bilder, die sich anpassen müssen!
+<li><strong>padding: 25px 50px 75px 100px;</strong>
 <ul>
-<li><u>Lösung, um dieses Problem zu umgehen</u>: Du musst mitels GIMP die Apsect-Ratios gleich machen. Dabei wirst du allerdings auch Croppen müssen…</li>
+<li>top padding is 25px</li>
+<li>right padding is 50px</li>
+<li>bottom padding is 75px</li>
+<li>left padding is 100px</li>
 </ul></li>
 </ul>
 </div>
-<div id="strange-small-white-space-below-image-used-as-a-produkt-karte" class="section level3">
-<h3><span class="header-section-number">8.1.3</span> Strange small white-space below Image used as a Produkt-Karte</h3>
+<div id="fall-2-margin-padding-has-3-values" class="section level3">
+<h3><span class="header-section-number">9.3.2</span> Fall 2: Margin / Padding has 3 Values</h3>
+<pre><code>div {
+  padding: 25px 50px 75px;
+}</code></pre>
 <ul>
-<li>The issue I had was exactly described in this Stack-Overflow-Post: <a href="https://stackoverflow.com/questions/5804256/image-inside-div-has-extra-space-below-the-image/5804278" class="uri">https://stackoverflow.com/questions/5804256/image-inside-div-has-extra-space-below-the-image/5804278</a></li>
+<li><strong>padding: 25px 50px 75px;</strong>
+<ul>
+<li>top padding is 25px</li>
+<li>right and left paddings are 50px</li>
+<li>bottom padding is 75px</li>
+</ul></li>
 </ul>
-<p>The solution to this is to simply display the image in the Produkt-Karte with a <code>block</code>-value:</p>
-<pre><code>.product-item-image {
-    display: block; /* Debuging: I had a strange white-space between the image and my Card-Description. This issue can be resolved when using the property &quot;block&quot; on the image.
-        - Example of the exact issue I had, is on Stack-Overflow: https://stackoverflow.com/questions/5804256/image-inside-div-has-extra-space-below-the-image/5804278
-    */
+</div>
+<div id="fall-3-margin-padding-has-2-values" class="section level3">
+<h3><span class="header-section-number">9.3.3</span> Fall 3: Margin / Padding has 2 Values</h3>
+<pre><code>div {
+  padding: 25px 50px;
+}</code></pre>
+<ul>
+<li><strong>padding: 25px 50px;</strong>
+<ul>
+<li>top and bottom paddings are 25px</li>
+<li>right and left paddings are 50px</li>
+</ul></li>
+</ul>
+</div>
+<div id="fall-4-margin-padding-has-1-value" class="section level3">
+<h3><span class="header-section-number">9.3.4</span> Fall 4: Margin / Padding has 1 Value</h3>
+<pre><code>div {
+  padding: 25px;
+}</code></pre>
+<ul>
+<li><strong>padding: 25px;</strong>
+<ul>
+<li>all four paddings are 25px</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="necessary-css-in-all-projects" class="section level2">
+<h2><span class="header-section-number">9.4</span> Necessary CSS in all Projects</h2>
+<div id="box-sizing-border-box-property" class="section level3">
+<h3><span class="header-section-number">9.4.1</span> <code>Box-Sizing: Border-Box</code> Property</h3>
+<p>Wenn wir beginnen unsere Webseite zu stylen, dann werden wir diese Property als aller erstes Element einfügen und zwar so:</p>
+<pre><code>* {
+  boxsizing: border-box;
+}</code></pre>
+<p>Wobei <code>*</code> dabei - Wort wörtlich übersetzt - bloß “alles” heisst.</p>
+<blockquote>
+<p>Weshalb brauchen wir <code>border-box</code> als Property?</p>
+</blockquote>
+<p>Angenommen, ich habe folgendes <code>&lt;div&gt;</code> gestylt:</p>
+<pre><code>div {
+  width: 300px;
+  padding: 25px;
+}</code></pre>
+Here, the
+<div>
+element is given a width of 300px. However, the actual width of the
+<div>
+<p>element will be 350px (300px + 25px of left padding + 25px of right padding). To keep the width at 300px, no matter the amount of padding, you can use the box-sizing property. This causes the element to maintain its actual width; if you increase the padding, the available content space will decrease.</p>
+<ul>
+<li><u>Beispiel zur Illustration</u>: <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_padding_width2" class="uri">https://www.w3schools.com/css/tryit.asp?filename=trycss_padding_width2</a></li>
+</ul>
+</div>
+<div id="css-for-images" class="section level3">
+<h3><span class="header-section-number">9.4.2</span> CSS for Images</h3>
+<p>In order to have images that <strong>behave “normally”</strong> on the website, we will need to implement the following for ALL images:</p>
+<pre><code>img {
+  width: 100%;
+}</code></pre>
+<blockquote>
+<p>Weshalb brauchen wir das?</p>
+</blockquote>
+<p>This will make the image to take 100% of the width of the parent-element, which - oftentimes - are <code>&lt;div&gt;</code>’s.</p>
+</div>
+<div id="center-a-div-and-make-it-responsive" class="section level3">
+<h3><span class="header-section-number">9.4.3</span> Center a <code>&lt;div&gt;</code> AND make it Responsive</h3>
+<p>Moderne Webseiten heutzutage verwenden <code>&lt;section&gt;</code>, um die einzelnen Bereiche einer Webseite nach “Thema” zu ordnen. Beispielsweise besteht eine Webseite aus einer Navigation, einem Hauptteil und einem Footer (= 3 Sections).</p>
+<p>In der Code-Struktur werden diese HTML <code>&lt;section&gt;</code>-Elemente häufig als “Main Container” // “Wrapper” verwendet, die viele weitere HTML-Elemente enthalten (“nested HTML”).</p>
+<p><em>Es ist zum Standard geworden, dass man bei diesen äusseren Wrappern jeweils das (responsive) <code>padding</code> &amp; <code>margin</code> festlegt. Ausserdem werden diese jeweils zentriert, damit es schöner aussieht</em>:</p>
+<pre><code>.main-container {
+  width: 90vw; /* For Responsive design, this is the &quot;state-of-the-art&quot; thing to do for our containers // wrappers. */
+  margin: 0 auto; /* Automatic centering of a &lt;div&gt;. */
+  padding: 40px 0; /* Bringt Luft in das Ganze, indem man - dem obere &amp; untere Rand - 40px mehr &quot;white space&quot; lässt.*/
 }</code></pre>
 </div>
 </div>
-<div id="kompression" class="section level2">
-<h2><span class="header-section-number">8.2</span> Kompression</h2>
-<p>Bilder sollten niemals in ihrer Original-Grösse auf das Web geladen werden, weil diese oftmals viel zu gross sind.</p>
-<blockquote>
-<p>Das Problem?</p>
-</blockquote>
-<p>Denke beispielsweise daran, wenn du mit deinem Smartphone nur eine <code>3G</code>- oder <code>4G</code>-Internetverbindung hast, dann werden die Ladezeiten langsamer. Wenn du nun nur riesige Bilder von mehreren <code>MB</code> an Grösse hast, dann wird die Seite ewigs laden und die Nutzer werden diese Seite nach kurzer Zeit verlassen, weil es sie aufregt, mit so <strong>langen Ladezeiten</strong> konfrontiert zu sein.</p>
-<blockquote>
-<p>Die Lösung?</p>
-</blockquote>
+<div id="css-grid-layout-modell" class="section level2">
+<h2><span class="header-section-number">9.5</span> CSS-Grid Layout-Modell</h2>
+<p><code>CSS Grid</code> ist eines (von insgesamt zwei) der wichtigsten Modelle, um eine Webseite von Grund auf zu kreieren.</p>
+<div id="grundstruktur-für-das-html" class="section level3">
+<h3><span class="header-section-number">9.5.1</span> Grundstruktur für das HTML</h3>
+<p>Um <code>CSS Grid</code> verwenden zu können, <em>müssen</em> die HTML-Ekemente folgende Grundstruktur aufweisen (ansonsten funktioniert das <code>CSS Grid</code> gar nicht!):</p>
+<pre><code>&lt;div class=&quot;grid-container&quot;&gt;
+  &lt;div class=&quot;grid-item&quot;&gt;1&lt;/div&gt;
+  &lt;div class=&quot;grid-item&quot;&gt;2&lt;/div&gt;
+  &lt;div class=&quot;grid-item&quot;&gt;3&lt;/div&gt;
+  &lt;div class=&quot;grid-item&quot;&gt;4&lt;/div&gt;
+  &lt;div class=&quot;grid-item&quot;&gt;5&lt;/div&gt;
+  &lt;div class=&quot;grid-item&quot;&gt;6&lt;/div&gt;
+  &lt;div class=&quot;grid-item&quot;&gt;7&lt;/div&gt;
+  &lt;div class=&quot;grid-item&quot;&gt;8&lt;/div&gt;
+  &lt;div class=&quot;grid-item&quot;&gt;9&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+</div>
+<div id="css-for-grid-container" class="section level3">
+<h3><span class="header-section-number">9.5.2</span> CSS for <code>Grid-Container</code></h3>
+<p>Es gibt eine Reihe von <code>CSS Grid</code> Properties, aber hier sind die 3 wichtigsten, um bereits ein sehr schönes UND responsives Design zu erhalten:</p>
+<pre><code>.posts-main-container{
+    display: grid; /*Aktiviert das CSS-Grid Modell für das HTML. */
+    grid-template-columns: repeat(3, 1fr); /* Für ein 3-Spaltiges Grid-Layout, welches - aufgrun des &quot;1fr&quot; - responsive ist. */
+    grid-gap: 40px;
+}</code></pre>
+</div>
+</div>
+<div id="adding-box-shadows" class="section level2">
+<h2><span class="header-section-number">9.6</span> Adding Box-Shadows</h2>
+<p>When building Produkt-Karten, you will probably want to make the cards more 3D-like. You can do this by simply addding the following CSS-code:</p>
+<pre><code>box-shadow: rgb(0 0 0 / 64%) 0px 8px 22px -12px;</code></pre>
+</div>
+<div id="optional-line-break" class="section level2">
+<h2><span class="header-section-number">9.7</span> Optional Line-Break</h2>
+<p>Manchmal gibt es Wörter, die sehr lang sind, zum Beispiel “Klangoptimierungszubehör”.</p>
+<p>Das <strong>Problem</strong>, welches dabei passieren könnte, wäre, dass <em>kleine Smartphones</em> solche Wörter nicht auf einer einzigen Linie abbilden können.</p>
+<p>Es gibt jedoch das <code>&amp;shy;</code>-HTML-Kürzel, welches dieses Problem behebt:</p>
+<pre><code>&lt;div id=&quot;example-paragraphs&quot;&gt;
+    &lt;p&gt;Fernstraßenbauprivatfinanzierungsgesetz&lt;/p&gt;
+    &lt;p&gt;Fernstraßen&amp;shy;bau&amp;shy;privat&amp;shy;finanzierungs&amp;shy;gesetz&lt;/p&gt;
+&lt;/div&gt;</code></pre>
 <ul>
-<li>Verwende <a href="https://www.befunky.com/">BeFunky.com</a>, um deine Bilder zu komprimieren.</li>
-<li>Alternative, die auch andere - modernere(!) - Formate &amp; Kompressionen erreichen kann, ist die Webapp <a href="https://squoosh.app/">Squoosh.app</a>.</li>
+<li><u>Erklärung</u>: The <code>&amp;shy;</code> HTML element represents a word break opportunity—a position within text where the browser may optionally break a line, though its line-breaking rules would not otherwise create a break at that location.</li>
 </ul>
 </div>
-<div id="das-neue-webp-format" class="section level2">
-<h2><span class="header-section-number">8.3</span> Das neue <code>WebP</code>-Format</h2>
-<p>Gemäss <code>Google Lighthouse</code>, gibt es nun ein neues Format, welches besser als <code>.jpeg</code> oder <code>.png</code> ist: das <code>WebP</code>-Format.</p>
-<p><strong>Dieses erlaubt eine noch bessere Kompression der Bilder und kann somit noch schnellere Seitenladezeiten garantieren!</strong></p>
-<blockquote>
-<p>Implementation in Webseite?</p>
-</blockquote>
+<div id="sonstiges" class="section level2">
+<h2><span class="header-section-number">9.8</span> Sonstiges</h2>
 <ul>
-<li>Folgender HTML-Code sollte implementiert werden:</li>
-</ul>
-<div class="figure">
-<img src="./bilder/bild-optimierung/html-code-webp.png" alt="" />
-<p class="caption">Dieser Code sollte das <code>WebP</code>-Format für moderne Browser garantieren und ansonsten auf das <code>.jpeg</code>-Format zugreifen, wenn es nicht geht.</p>
-</div>
-</div>
-<div id="caching-when-dealing-with-phones" class="section level2">
-<h2><span class="header-section-number">8.4</span> Caching when dealing with Phones</h2>
-<p>Smartphones werden zunehmend der Standard der Webseiten-Branche. In 2020 hat Google sogar bei Webseiten eine sehr wichtige neue Richtlinie eingeführt, welche mit dem Slogan <code>Smartphones first</code> betitelt wurde. Somit muss ich nun vor allem die Optimierungs-Kriterien vor allem für Smartphones ausrichten.</p>
-<p>Und eine der wichtigsten Tools - wie es scheint - ist die Einrichtung (auf der Server-Seite) der richtigen <strong>Caching-Strategie</strong>. Hierzu habe ich einen <a href="https://imagekit.io/blog/ultimate-guide-to-http-caching-for-static-assets/">ultimativen Guide</a> gefunden, welcher alles erklärt. Insbesondere die Erklärungen ganz am Anfang helfen sehr für das allgemeine Verständnis.</p>
+<li><code>100 vh</code> = Full screen of the Browser-Fenster.
 <ul>
-<li>Hier ein Beispiel, wie es in der <code>.htaccess</code>-Datei aufzusetzen wäre, gemäss <a href="https://www.df.eu/blog/http-cache-control-browser-caching-steuern-mit-htaccess/">dieser Webseite</a>:</li>
+<li><u>Apple zum Beispiel verwendet</u>: <code>35vh</code> und <code>55vh</code>.</li>
+</ul></li>
 </ul>
-<div class="figure">
-<img src="./bilder/bild-optimierung/example-htaccess-caching.png" alt="" />
-<p class="caption">Beispiels-Code für die <code>.htaccess</code>-Datei</p>
-</div>
-<p>Auf dem obigen Beispiel gibt es keinen Hinweis darauf, wie ein <code>Expires</code>-Attribut (= Datum, ab welchem der Browser seinen Cash löschen darf) verwendet werden soll:</p>
-<div class="figure">
-<img src="./bilder/bild-optimierung/example-caching.png" alt="" />
-<p class="caption">Beispiel mit <code>Expires</code>-Attribut</p>
-</div>
 
 </div>
 </div>
@@ -309,8 +416,8 @@
           </div>
         </div>
       </div>
-<a href="visual-studio-code.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="css-tricks-theorie.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="bilder-für-webseite.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -342,7 +449,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/joffreymayer/webseite-tee/edit/master/08-bilder.Rmd",
+"link": "https://github.com/joffreymayer/webseite-tee/edit/master/09-css.Rmd",
 "text": "Edit"
 },
 "history": {
@@ -350,7 +457,7 @@ gitbook.start({
 "text": null
 },
 "view": {
-"link": "https://github.com/joffreymayer/webseite-tee/blob/master/08-bilder.Rmd",
+"link": "https://github.com/joffreymayer/webseite-tee/blob/master/09-css.Rmd",
 "text": null
 },
 "download": null,

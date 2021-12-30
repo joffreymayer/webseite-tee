@@ -1,4 +1,15 @@
-# CSS-Tricks
+# CSS-Tricks & Theorie
+
+## CSS Operatoren
+
+Bei `CSS` gibt es eine Vielzahl an sogenannten *Operatoren*, die verwendet werden, um die jeweiligen HTML-Elemente zu selektionieren.
+
+Ich habe hier eine **Liste mit den wichtigsten CSS-Operatoren** erstellt:
+
+- `.main-container > h2`: Selects all the <h2>-Tags that are a DIRECT Child  of the class '.main-container'. 
+- `div.main-container.green`: Select all the <div>-Tags, that have the class '.main-container' **AND** also the '.green' class.
+- `.main-container, .red`: Notice the *comma* when I wrote the two classes! This means that we are going to select all HTML-Elements that have the class '.main-container' **OR** the class '.red'.
+- `.main-container .blue`: Select all HTML-elements with the class '.main-container' and - **WITHIN** those HTML-Element with the '.main-container'-class - it selects all the HTML-Elements that have - additionally - the class '.blue'. If both of these conditions are *NOT* simulatenously met, then it will *NOT* apply the blue-background color!!! Note that **WITHIN** means _not necessarily_ that the nested HTML-Element should be a _direct_ child of the '.main-container' element! 
 
 ## Responsive-Design: use Media-Queries
 
@@ -31,8 +42,184 @@ Im Folgenden habe ich dir diejenigen Mediaqueries eingeblendet, die öfters vork
 Wenn du auf Screen-Grössen **zwischen** zwei bestimmten Werten abzielst, dann kann man dies auch tun: 
 
 ```
+@media only screen and (min-width: 480px) and (max-width: 989px) {
+}
+```
+
+## Padding-Abkürzung
+
+Es gibt bei CSS diverse Abkürzungen, insbesondere wirst du vor allem diejenige `margin` und `padding` sehr oft begenenen:
+
+### Fall 1: Margin / Padding has 4 Values
 
 ```
+div {
+  padding: 25px 50px 75px 100px;
+}
+```
+
+*Die Merkregel ist diejenige: es dreht sich im Uhrzeigersinn*.
+
+- **padding: 25px 50px 75px 100px;**
+  - top padding is 25px
+  - right padding is 50px
+  - bottom padding is 75px
+  - left padding is 100px
+  
+### Fall 2: Margin / Padding has 3 Values
+
+```
+div {
+  padding: 25px 50px 75px;
+}
+```
+
+- **padding: 25px 50px 75px;**
+  - top padding is 25px
+  - right and left paddings are 50px
+  - bottom padding is 75px
+  
+### Fall 3: Margin / Padding has 2 Values
+
+```
+div {
+  padding: 25px 50px;
+}
+```
+
+- **padding: 25px 50px;**
+  - top and bottom paddings are 25px
+  - right and left paddings are 50px
+  
+### Fall 4: Margin / Padding has 1 Value
+
+```
+div {
+  padding: 25px;
+}
+```
+
+- **padding: 25px;**
+  - all four paddings are 25px
+  
+## Necessary CSS in all Projects
+
+### `Box-Sizing: Border-Box` Property
+
+Wenn wir beginnen unsere Webseite zu stylen, dann werden wir diese Property als aller erstes Element einfügen und zwar so:
+
+```
+* {
+  boxsizing: border-box;
+}
+```
+
+Wobei `*` dabei - Wort wörtlich übersetzt - bloß "alles" heisst.
+
+> Weshalb brauchen wir `border-box` als Property?
+
+Angenommen, ich habe folgendes `<div>` gestylt:
+
+```
+div {
+  width: 300px;
+  padding: 25px;
+}
+```
+
+Here, the <div> element is given a width of 300px. However, the actual width of the <div> element will be 350px (300px + 25px of left padding + 25px of right padding). To keep the width at 300px, no matter the amount of padding, you can use the box-sizing property. This causes the element to maintain its actual width; if you increase the padding, the available content space will decrease.
+
+- <u>Beispiel zur Illustration</u>: https://www.w3schools.com/css/tryit.asp?filename=trycss_padding_width2
+
+### CSS for Images
+
+In order to have images that **behave "normally"** on the website, we will need to implement the following for ALL images:
+
+```
+img {
+  width: 100%;
+}
+```
+
+> Weshalb brauchen wir das? 
+
+This will make the image to take 100% of the width of the parent-element, which - oftentimes - are `<div>`'s. 
+
+### Center a `<div>` AND make it Responsive
+
+Moderne Webseiten heutzutage verwenden `<section>`, um die einzelnen Bereiche einer Webseite nach "Thema" zu ordnen. Beispielsweise besteht eine Webseite aus einer Navigation, einem Hauptteil und einem Footer (= 3 Sections).
+
+In der Code-Struktur werden diese HTML `<section>`-Elemente häufig als "Main Container" // "Wrapper" verwendet, die viele weitere HTML-Elemente enthalten ("nested HTML"). 
+
+*Es ist zum Standard geworden, dass man bei diesen äusseren Wrappern jeweils das (responsive) `padding` & `margin` festlegt. Ausserdem werden diese jeweils zentriert, damit es schöner aussieht*:
+
+```
+.main-container {
+  width: 90vw; /* For Responsive design, this is the "state-of-the-art" thing to do for our containers // wrappers. */
+  margin: 0 auto; /* Automatic centering of a <div>. */
+  padding: 40px 0; /* Bringt Luft in das Ganze, indem man - dem obere & untere Rand - 40px mehr "white space" lässt.*/
+}
+```
+
+## CSS-Grid Layout-Modell
+
+`CSS Grid` ist eines (von insgesamt zwei) der wichtigsten Modelle, um eine Webseite von Grund auf zu kreieren.
+
+### Grundstruktur für das HTML
+
+Um `CSS Grid` verwenden zu können, *müssen* die HTML-Ekemente folgende Grundstruktur aufweisen (ansonsten funktioniert das `CSS Grid` gar nicht!):
+
+```
+<div class="grid-container">
+  <div class="grid-item">1</div>
+  <div class="grid-item">2</div>
+  <div class="grid-item">3</div>
+  <div class="grid-item">4</div>
+  <div class="grid-item">5</div>
+  <div class="grid-item">6</div>
+  <div class="grid-item">7</div>
+  <div class="grid-item">8</div>
+  <div class="grid-item">9</div>
+</div>
+```
+
+### CSS for `Grid-Container`
+
+Es gibt eine Reihe von `CSS Grid` Properties, aber hier sind die 3 wichtigsten, um bereits ein sehr schönes UND responsives Design zu erhalten:
+
+```
+.posts-main-container{
+    display: grid; /*Aktiviert das CSS-Grid Modell für das HTML. */
+    grid-template-columns: repeat(3, 1fr); /* Für ein 3-Spaltiges Grid-Layout, welches - aufgrun des "1fr" - responsive ist. */
+    grid-gap: 40px;
+}
+```
+
+
+## Adding Box-Shadows
+
+When building Produkt-Karten, you will probably want to make the cards more 3D-like. You can do this by simply addding the following CSS-code:
+
+```
+box-shadow: rgb(0 0 0 / 64%) 0px 8px 22px -12px;
+```
+
+## Optional Line-Break
+
+Manchmal gibt es Wörter, die sehr lang sind, zum Beispiel "Klangoptimierungszubehör". 
+
+Das **Problem**, welches dabei passieren könnte, wäre, dass *kleine Smartphones* solche Wörter nicht auf einer einzigen Linie abbilden können.
+
+Es gibt jedoch das `&shy;`-HTML-Kürzel, welches dieses Problem behebt:
+
+```
+<div id="example-paragraphs">
+    <p>Fernstraßenbauprivatfinanzierungsgesetz</p>
+    <p>Fernstraßen&shy;bau&shy;privat&shy;finanzierungs&shy;gesetz</p>
+</div>
+```
+
+- <u>Erklärung</u>: The `&shy;` HTML element represents a word break opportunity—a position within text where the browser may optionally break a line, though its line-breaking rules would not otherwise create a break at that location.
 
 ## Sonstiges
 
