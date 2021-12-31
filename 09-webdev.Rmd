@@ -1,0 +1,12 @@
+# Webdevelopment Allgemein
+
+In diesem Kapitel bespreche ich wichtige Begriffe und Synonyme, die im Bereich des Webdevelopments auftauchen-
+
+## Synonyme
+
+- Swiper // Slideshow // Carousel
+
+## Definitionen
+
+- **Swiper**: Das ist ein Effekt, bei dem die Bilder meistens von links nach rechts durgeblättert werden. 
+  - <u>Beispiel</u>: https://www.w3schools.com/bootstrap/bootstrap_carousel.asp

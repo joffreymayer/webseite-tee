@@ -11,15 +11,6 @@ Ich habe hier eine **Liste mit den wichtigsten CSS-Operatoren** erstellt:
 - `.main-container, .red`: Notice the *comma* when I wrote the two classes! This means that we are going to select all HTML-Elements that have the class '.main-container' **OR** the class '.red'.
 - `.main-container .blue`: Select all HTML-elements with the class '.main-container' and - **WITHIN** those HTML-Element with the '.main-container'-class - it selects all the HTML-Elements that have - additionally - the class '.blue'. If both of these conditions are *NOT* simulatenously met, then it will *NOT* apply the blue-background color!!! Note that **WITHIN** means _not necessarily_ that the nested HTML-Element should be a _direct_ child of the '.main-container' element!
 
-## Synonyme
-
-- Swiper // Slideshow // Carousel
-
-## Definitionen
-
-- **Swiper**: Das ist ein Effekt, bei dem die Bilder meistens von links nach rechts durgeblättert werden. 
-  - <u>Beispiel</u>: https://www.w3schools.com/bootstrap/bootstrap_carousel.asp
-
 ## Responsive-Design: use Media-Queries
 
 Wenn du eine Webseite kreierst, dann musst du zuallerst sicherstellen, dass die Webseite sowohl für Smartphones, aber auch für Tablets und Desktops super aussieht. 
