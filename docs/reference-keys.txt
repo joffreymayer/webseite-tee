@@ -73,6 +73,8 @@ das-neue-webp-format
 caching-when-dealing-with-phones
 css-tricks-theorie
 css-operatoren
+synonyme-1
+definitionen
 responsive-design-use-media-queries
 padding-abkürzung
 fall-1-margin-padding-has-4-values

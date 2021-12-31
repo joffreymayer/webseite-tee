@@ -9,7 +9,16 @@ Ich habe hier eine **Liste mit den wichtigsten CSS-Operatoren** erstellt:
 - `.main-container > h2`: Selects all the `<h2>`-Tags that are a DIRECT Child  of the class '.main-container'. 
 - `div.main-container.green`: Select all the `<div>`-Tags, that have the class '.main-container' **AND** also the '.green' class.
 - `.main-container, .red`: Notice the *comma* when I wrote the two classes! This means that we are going to select all HTML-Elements that have the class '.main-container' **OR** the class '.red'.
-- `.main-container .blue`: Select all HTML-elements with the class '.main-container' and - **WITHIN** those HTML-Element with the '.main-container'-class - it selects all the HTML-Elements that have - additionally - the class '.blue'. If both of these conditions are *NOT* simulatenously met, then it will *NOT* apply the blue-background color!!! Note that **WITHIN** means _not necessarily_ that the nested HTML-Element should be a _direct_ child of the '.main-container' element! 
+- `.main-container .blue`: Select all HTML-elements with the class '.main-container' and - **WITHIN** those HTML-Element with the '.main-container'-class - it selects all the HTML-Elements that have - additionally - the class '.blue'. If both of these conditions are *NOT* simulatenously met, then it will *NOT* apply the blue-background color!!! Note that **WITHIN** means _not necessarily_ that the nested HTML-Element should be a _direct_ child of the '.main-container' element!
+
+## Synonyme
+
+- Swiper // Slideshow // Carousel
+
+## Definitionen
+
+- **Swiper**: Das ist ein Effekt, bei dem die Bilder meistens von links nach rechts durgeblättert werden. 
+  - <u>Beispiel</u>: https://www.w3schools.com/bootstrap/bootstrap_carousel.asp
 
 ## Responsive-Design: use Media-Queries
 
@@ -225,3 +234,6 @@ Es gibt jedoch das `&shy;`-HTML-Kürzel, welches dieses Problem behebt:
 
 - `100 vh` = Full screen of the Browser-Fenster.
   - <u>Apple zum Beispiel verwendet</u>: `35vh` und `55vh`.
+  
+  
+
