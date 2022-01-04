@@ -1,0 +1,11 @@
+# Beispiele
+
+Hier gebe ich verschiedene Text-Beispiele, um gut zu argumentieren.
+
+## Argumentation für Optimize
+
+### Beispiel 1 (Telegram)
+
+<blockquote>Some could say that, as a founder of a rival app, I may be biased when criticizing WhatsApp. Of course I am. Of course I consider Telegram Secret Chats to be significantly more secure than any competing means of communication – why else would I be developing and using Telegram? 
+
+However, the statements in this post are based on facts, not personal preference. And, just like the code of the Telegram apps, these facts are verifiable and further supported by the third-party sources below. When it comes to security, nobody should take anybody’s word for granted.</blockquote>
