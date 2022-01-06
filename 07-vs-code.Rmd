@@ -42,6 +42,10 @@ _Besonders nützlich, wenn man nicht will, dass der Code eeewig auf eine einzige
 
 - Hit `F2`-Taste (= `fn` + `F2`, das in der elektronischen Leiste meines Macs erscheint, wenn du `fn` drückst), während du im File-Namen oder Variablen-Namen bist, um es über alle Dokumente hinweg zu ändern! 
 
+### Set Bookmark
+
+- `option` + `command` + `K`-Taste
+
 ### Emmet Shortcuts
 
 `Emmet` is simply a Syntax that VS-Code is able to read - like the `Markdown`-Syntax for example - and is able to output many fancy stuff. 

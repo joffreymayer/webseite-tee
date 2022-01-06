@@ -60,6 +60,7 @@ rauf-runter-bewegen-von-code-snippets
 automatic-line-break
 auto-formatting
 rename-refactor
+set-bookmark
 emmet-shortcuts
 building-the-structure-of-an-html-page
 multi-cursor
