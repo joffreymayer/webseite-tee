@@ -123,6 +123,7 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 - billig = erschwinlich
 - clever = raffiniert = geschickte
 - Design = Ästhetik
+- ehren = Tribut zollen
 - Eigenschaft = Merkmal = Charakteristiken = Besonderheiten
 - Eindruck = Empfindung = Wahrnehmung = Anschein = Gefühl
 - einen _positiven_ Einfluss haben = begünstigen = einen Nutzen ziehen = einen Vorteil haben = zugutekommen = profitieren = in den Genuss kommen
@@ -158,6 +159,7 @@ zeichnen zusammen Klangbilder mit einer Akribie von einem anderen Stern.
 - montieren = befestigen = anbringen
 - Musikstück = Musikpassage = Song 
 - natürlich = mit Sicherheit = zweifelsfrei
+- nicht notwendigerweise = nicht unbedingt
 - offensichtlich = naheliegend = nachvollziehbar = evident = einleuchtend
 - passieren = sich erreignen = abspielen = vorkommen = eintreffen
 - Perfektionist = Klangfanatiker = Musikbegeisterte
@@ -365,6 +367,11 @@ Hier eine Auflistung aller grammatikalischen Punkte, bei denen ich schon Problem
 - vakant = im Augenblick frei, nicht besetzt, offen
 - vehement = heftig, ungestüm
 - versiert = Bescheid wissen, geschickt
+
+## Wissen
+
+- RCA (internationale Konvention) // Cinch (= europäische Konvention)
+- Verbindungskabel // Singalkabel // Interconnects
 
 ## Next Steps
 
