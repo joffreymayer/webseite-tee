@@ -115,7 +115,9 @@ Du kannst sowohl **GIMP** aber auch **Figma** verwenden, um SVG-Bilder zu produk
 
 *Ich empfehle dir die Figma-Implementierung, denn diese ist einfacher zu bedinene, als GIMP und du kannst ausserdem andere Designs verwenden, von anderen Personen*!
 
-<mark>`Figma` eignet sich insbesondere für 2 Fälle, insbesondere für das erstellen von (komplexen) Logos UND für die Erstellung von SVGs, welche dann weiterverwendet werden können für - beispielsweise - Webseiten-Animationen</mark>.
+<mark>`Figma` eignet sich insbesondere für 2 Fälle, insbesondere für das erstellen von (komplexen) Logos UND für die Erstellung von SVGs, welche dann weiterverwendet werden können für - beispielsweise - Webseiten-Animationen.</mark>
+
+*Zwar kann `Figma` einem CSS-Code für den Aufbau eines (App- // Logo-) Prototypen verwenden, allerdings wird nicht mit HTML angegeben und ist nicht responsive! Somit kann `Figma` als ein Substitut für `Adobe InDesign` angesehen werden.* 
 
 - <u>Figma-Tutorial</u>: https://www.youtube.com/watch?v=UTHgr6NLeEw&t=3m12s
 - <u>Figma-Webseite</u>: https://www.figma.com/
