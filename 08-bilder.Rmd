@@ -104,3 +104,22 @@ Und eine der wichtigsten Tools - wie es scheint - ist die Einrichtung (auf der S
 Auf dem obigen Beispiel gibt es keinen Hinweis darauf, wie ein `Expires`-Attribut (= Datum, ab welchem der Browser seinen Cash löschen darf) verwendet werden soll:
 
 ![Beispiel mit `Expires`-Attribut](./bilder/bild-optimierung/example-caching.png)
+
+## SVG-Bilder
+
+Diese Art von Bilder ist speziell, denn - egal ob du ein Bild schrumpfst oder erhöhst - die Auflösung bleibt diesselbe! 
+
+Du kannst sowohl **GIMP** aber auch **Figma** verwenden, um SVG-Bilder zu produkzieren.
+
+### Implementierung mit `Figma`
+
+*Ich empfehle dir die Figma-Implementierung, denn diese ist einfacher zu bedinene, als GIMP und du kannst ausserdem andere Designs verwenden, von anderen Personen*!
+
+<mark>`Figma` eignet sich insbesondere für 2 Fälle, insbesondere für das erstellen von (komplexen) Logos UND für die Erstellung von SVGs, welche dann weiterverwendet werden können für - beispielsweise - Webseiten-Animationen</mark>.
+
+- <u>Figma-Tutorial</u>: https://www.youtube.com/watch?v=UTHgr6NLeEw&t=3m12s
+- <u>Figma-Webseite</u>: https://www.figma.com/
+
+### Implementierung mit `GIMP`
+
+- <u>GIMP-Tutorial</u>: https://praxistipps.chip.de/gimp-vektorgrafik-erstellen_30229

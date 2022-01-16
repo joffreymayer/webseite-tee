@@ -73,6 +73,9 @@ strange-small-white-space-below-image-used-as-a-produkt-karte
 kompression
 das-neue-webp-format
 caching-when-dealing-with-phones
+svg-bilder
+implementierung-mit-figma
+implementierung-mit-gimp
 webdevelopment-allgemein
 synonyme-1
 definitionen
