@@ -373,6 +373,10 @@ Hier eine Auflistung aller grammatikalischen Punkte, bei denen ich schon Problem
 - RCA (internationale Konvention) // Cinch (= europäische Konvention)
 - Verbindungskabel // Singalkabel // Interconnects
 
+## Konkurrenz
+
+- Beweis, dass Kalo (siehe seine Datenschutz-Richtlinie, wo es klar steht, dass es ein "Opt-Out" ist) gegen das DSCVO-Gesetz verstösst in [diesem Youtube-Video](https://www.youtube.com/watch?v=z2Jtv-Dc6uw&t=2m6s).
+
 ## Next Steps
 
 Weil Google nun offiziell die Suchmaschine auf Smartphones priorisiert, würde ich dir vorschlagen, du liest dir folgende Artikel sorgfältig durch:
