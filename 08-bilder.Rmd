@@ -91,6 +91,45 @@ Gemäss `Google Lighthouse`, gibt es nun ein neues Format, welches besser als `.
 
 ![Dieser Code sollte das `WebP`-Format für moderne Browser garantieren und ansonsten auf das `.jpeg`-Format zugreifen, wenn es nicht geht.](./bilder/bild-optimierung/html-code-webp.png)
 
+## Hero-Image
+
+Eines der effektivsten Mitteln, um einen User auf der Webseite zu behalten, sind der Einsatz von Bildern. Für meine Webseiten verwende ich sehr oft aogenannte _Hero-Images_, damit die User sofort mit schönen Fotos in den Bann gezogen werden.
+
+> Das Problem mit Responive-Webseiten?
+
+Wenn du Hero-Images verwendest, dann kann es sein, dass die Bilder für Tablets & Smartphones falsch "ge-cropt" werden. Deshalb ist der Einsatz vom `picture`-Tag sehr empfehlenswert.
+
+> Die Lösung mit Responive-Webseiten?
+
+- <u>Hier wäre ein Beispiel eines HTML-Codes</u>:
+
+```
+<div class="grande-image">
+			<div class="grande-image-item">
+				<picture>
+					<source media="(max-width: 480px)" srcset="bilder/produkte/abschlusswiderstand/abschlusswiderstand-75-ohm-innenleben.jpg" />
+
+					<source media="(max-width: 640px)" srcset="bilder/produkte/abschlusswiderstand/abschlusswiderstand-75-ohm-innenleben.jpg" />
+
+					<source media="(max-width: 1024px)" srcset="bilder/produkte/abschlusswiderstand/abschlusswiderstand-75-ohm.jpg" />
+
+					<img src="bilder/produkte/abschlusswiderstand/abschlusswiderstand-75-ohm.jpg" width="1800" height="824"
+						alt="OptimizeAudio Abschlusswiderstand 75 Ohm" />
+					<!--421 kB-->
+				</picture>
+				<img src="bilder/produkte/abschlusswiderstand/abschlusswiderstand-75-ohm.jpg" width="2000" height="1333"
+					alt="OptimizeAudio Abschlusswiderstand 75 Ohm" />
+				<div class="centered">
+					<h2 class="hero-title">Abschlusswiderstand 75 oder 110 Ohm</h1>
+					<h3 class="hero-sub-title">Vermeidet das Eindringen von elektromagnetischen hochfrequenten Feldern.
+					</h2>
+				</div>
+			</div>
+		</div>
+```
+
+- **<u>ACHTUNG</u>**: Reihenfolge spielt hier eine Rolle bei den `<source>`-Elementen --> Liste zuerst die Elemente auf, mit dem kleinsten Bildschirm, dann 2. kleinster Bildschirm etc...
+
 ## Das `LCP`-Problem bei SEO-Smartphone-Optimierung
 
 > Das Problem?
@@ -134,7 +173,7 @@ Ich habe eine provisorische Lösung gefunden, die sich extrem schnell implementi
 
 > Das Problem? 
 
-Bisher konnte ich nur unterschiedliche Bilder für ein Hero-Image, indem ich `<figure>` in Kombination mit `<img>`-(Fallback-)Tag & `<source>`-(Media-Queries)-Tag verwendet habe.
+Bisher konnte ich nur unterschiedliche Bilder für ein Hero-Image, indem ich `<picture>` in Kombination mit `<img>`-(Fallback-)Tag & `<source>`-(Media-Queries)-Tag verwendet habe.
 
 Ich habe jedoch eine neue Lösung gefunden, um DASSELBE Resultat zu erreichen, allerdings mit der CSS-Propert `background-image: url(...)`, damit die Background-Images RESPONSIVE werden (sehr nice!).
 

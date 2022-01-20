@@ -73,6 +73,7 @@ resize-all-images-the-same-and-maintain-aspect-ratios
 strange-small-white-space-below-image-used-as-a-produkt-karte
 kompression
 das-neue-webp-format
+hero-image
 das-lcp-problem-bei-seo-smartphone-optimierung
 responsive-background-images-as-hero-image
 caching-when-dealing-with-phones
