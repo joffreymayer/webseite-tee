@@ -164,10 +164,11 @@
 <li class="chapter" data-level="8.2" data-path="bilder-für-webseite.html"><a href="bilder-für-webseite.html#kompression"><i class="fa fa-check"></i><b>8.2</b> Kompression</a></li>
 <li class="chapter" data-level="8.3" data-path="bilder-für-webseite.html"><a href="bilder-für-webseite.html#das-neue-webp-format"><i class="fa fa-check"></i><b>8.3</b> Das neue <code>WebP</code>-Format</a></li>
 <li class="chapter" data-level="8.4" data-path="bilder-für-webseite.html"><a href="bilder-für-webseite.html#das-lcp-problem-bei-seo-smartphone-optimierung"><i class="fa fa-check"></i><b>8.4</b> Das <code>LCP</code>-Problem bei SEO-Smartphone-Optimierung</a></li>
-<li class="chapter" data-level="8.5" data-path="bilder-für-webseite.html"><a href="bilder-für-webseite.html#caching-when-dealing-with-phones"><i class="fa fa-check"></i><b>8.5</b> Caching when dealing with Phones</a></li>
-<li class="chapter" data-level="8.6" data-path="bilder-für-webseite.html"><a href="bilder-für-webseite.html#svg-bilder"><i class="fa fa-check"></i><b>8.6</b> SVG-Bilder</a><ul>
-<li class="chapter" data-level="8.6.1" data-path="bilder-für-webseite.html"><a href="bilder-für-webseite.html#implementierung-mit-figma"><i class="fa fa-check"></i><b>8.6.1</b> Implementierung mit <code>Figma</code></a></li>
-<li class="chapter" data-level="8.6.2" data-path="bilder-für-webseite.html"><a href="bilder-für-webseite.html#implementierung-mit-gimp"><i class="fa fa-check"></i><b>8.6.2</b> Implementierung mit <code>GIMP</code></a></li>
+<li class="chapter" data-level="8.5" data-path="bilder-für-webseite.html"><a href="bilder-für-webseite.html#responsive-background-images-as-hero-image"><i class="fa fa-check"></i><b>8.5</b> Responsive Background Images as Hero-Image</a></li>
+<li class="chapter" data-level="8.6" data-path="bilder-für-webseite.html"><a href="bilder-für-webseite.html#caching-when-dealing-with-phones"><i class="fa fa-check"></i><b>8.6</b> Caching when dealing with Phones</a></li>
+<li class="chapter" data-level="8.7" data-path="bilder-für-webseite.html"><a href="bilder-für-webseite.html#svg-bilder"><i class="fa fa-check"></i><b>8.7</b> SVG-Bilder</a><ul>
+<li class="chapter" data-level="8.7.1" data-path="bilder-für-webseite.html"><a href="bilder-für-webseite.html#implementierung-mit-figma"><i class="fa fa-check"></i><b>8.7.1</b> Implementierung mit <code>Figma</code></a></li>
+<li class="chapter" data-level="8.7.2" data-path="bilder-für-webseite.html"><a href="bilder-für-webseite.html#implementierung-mit-gimp"><i class="fa fa-check"></i><b>8.7.2</b> Implementierung mit <code>GIMP</code></a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="9" data-path="webdevelopment-allgemein.html"><a href="webdevelopment-allgemein.html"><i class="fa fa-check"></i><b>9</b> Webdevelopment Allgemein</a><ul>
@@ -304,12 +305,18 @@
 </div>
 <div id="das-lcp-problem-bei-seo-smartphone-optimierung" class="section level2">
 <h2><span class="header-section-number">8.4</span> Das <code>LCP</code>-Problem bei SEO-Smartphone-Optimierung</h2>
+<blockquote>
+<p>Das Problem?</p>
+</blockquote>
 <p>Da meine Webseiten häufig auf “Hero”-Images (= grosse, Full-Screen Bilder) basieren, um die Neugier des Besuchers sofort zu packen, habe ich jedoch ein <code>LCP</code>-Problem (= “largest contentful page”): Google meint, dass die Ladezeit für Smartphone-User hier zu lange geht.</p>
 <p>Es gibt hier viele “pro”-Methoden, um das Problem zu lösen (insbesondere mit sog. Caching-Strategien), allerdings sind diese sehr kompliziert zu implementieren.</p>
 <div class="figure">
 <img src="/bilder/bild-optimierung/lighthouse-report-ohne-hero-hack.png" alt="" />
 <p class="caption">Hier das Problem illustriert: man sieht, dass bei der “Performance” die Werte gering sind. Dies ist der hohen Ladezeit des Hero-Images zuzuschreiben…</p>
 </div>
+<blockquote>
+<p>Die Lösung?</p>
+</blockquote>
 <p>Ich habe eine provisorische Lösung gefunden, die sich extrem schnell implementieren lässt und sofort Resultate bringt.</p>
 <ul>
 <li><u>Folgender Code sollte hierbei verwendet werden</u>:</li>
@@ -335,8 +342,24 @@
 <p class="caption">Resultat, wenn du den Hack richtig implementierst. Schau, wie nun der Score der Performance von “81” auf “94” gestiegen ist! xD</p>
 </div>
 </div>
+<div id="responsive-background-images-as-hero-image" class="section level2">
+<h2><span class="header-section-number">8.5</span> Responsive Background Images as Hero-Image</h2>
+<blockquote>
+<p>Das Problem?</p>
+</blockquote>
+<p>Bisher konnte ich nur unterschiedliche Bilder für ein Hero-Image, indem ich <code>&lt;figure&gt;</code> in Kombination mit <code>&lt;img&gt;</code>-(Fallback-)Tag &amp; <code>&lt;source&gt;</code>-(Media-Queries)-Tag verwendet habe.</p>
+<p>Ich habe jedoch eine neue Lösung gefunden, um DASSELBE Resultat zu erreichen, allerdings mit der CSS-Propert <code>background-image: url(...)</code>, damit die Background-Images RESPONSIVE werden (sehr nice!).</p>
+<p>Das Beste daran? <strong>Es funktioniert sogar mit IE Browsern</strong>!</p>
+<blockquote>
+<p>Die Lösung?</p>
+</blockquote>
+<p>Obwohl Media-Queries <u>nicht</u> als Inline-CSS im HTML-Dokument verwendet werden können (das war ursprünglich meine Lösung, um Background-Images responsive zu machen), kann es nun mittels einer sogenannten “CSS-Variablen” erreicht werden (= <code>var()</code>).</p>
+<ul>
+<li>Lese die Antwort mit den meisten upvotes in <a href="https://stackoverflow.com/questions/9808233/is-it-possible-to-put-css-media-rules-inline">diesem Stack-Overflow</a> thread, damit due verstehen kannst, wie ich das geschafft habe.</li>
+</ul>
+</div>
 <div id="caching-when-dealing-with-phones" class="section level2">
-<h2><span class="header-section-number">8.5</span> Caching when dealing with Phones</h2>
+<h2><span class="header-section-number">8.6</span> Caching when dealing with Phones</h2>
 <p>Smartphones werden zunehmend der Standard der Webseiten-Branche. In 2020 hat Google sogar bei Webseiten eine sehr wichtige neue Richtlinie eingeführt, welche mit dem Slogan <code>Smartphones first</code> betitelt wurde. Somit muss ich nun vor allem die Optimierungs-Kriterien vor allem für Smartphones ausrichten.</p>
 <p>Und eine der wichtigsten Tools - wie es scheint - ist die Einrichtung (auf der Server-Seite) der richtigen <strong>Caching-Strategie</strong>. Hierzu habe ich einen <a href="https://imagekit.io/blog/ultimate-guide-to-http-caching-for-static-assets/">ultimativen Guide</a> gefunden, welcher alles erklärt. Insbesondere die Erklärungen ganz am Anfang helfen sehr für das allgemeine Verständnis.</p>
 <ul>
@@ -353,11 +376,11 @@
 </div>
 </div>
 <div id="svg-bilder" class="section level2">
-<h2><span class="header-section-number">8.6</span> SVG-Bilder</h2>
+<h2><span class="header-section-number">8.7</span> SVG-Bilder</h2>
 <p>Diese Art von Bilder ist speziell, denn - egal ob du ein Bild schrumpfst oder erhöhst - die Auflösung bleibt diesselbe!</p>
 <p>Du kannst sowohl <strong>GIMP</strong> aber auch <strong>Figma</strong> verwenden, um SVG-Bilder zu produkzieren.</p>
 <div id="implementierung-mit-figma" class="section level3">
-<h3><span class="header-section-number">8.6.1</span> Implementierung mit <code>Figma</code></h3>
+<h3><span class="header-section-number">8.7.1</span> Implementierung mit <code>Figma</code></h3>
 <p><em>Ich empfehle dir die Figma-Implementierung, denn diese ist einfacher zu bedinene, als GIMP und du kannst ausserdem andere Designs verwenden, von anderen Personen</em>!</p>
 <p><mark><code>Figma</code> eignet sich insbesondere für 2 Fälle, insbesondere für das erstellen von (komplexen) Logos UND für die Erstellung von SVGs, welche dann weiterverwendet werden können für - beispielsweise - Webseiten-Animationen.</mark></p>
 <p><em>Zwar kann <code>Figma</code> einem CSS-Code für den Aufbau eines (App- // Logo-) Prototypen verwenden, allerdings wird nicht mit HTML angegeben und ist nicht responsive! Somit kann <code>Figma</code> als ein Substitut für <code>Adobe InDesign</code> angesehen werden.</em></p>
@@ -367,7 +390,7 @@
 </ul>
 </div>
 <div id="implementierung-mit-gimp" class="section level3">
-<h3><span class="header-section-number">8.6.2</span> Implementierung mit <code>GIMP</code></h3>
+<h3><span class="header-section-number">8.7.2</span> Implementierung mit <code>GIMP</code></h3>
 <ul>
 <li><u>GIMP-Tutorial</u>: <a href="https://praxistipps.chip.de/gimp-vektorgrafik-erstellen_30229" class="uri">https://praxistipps.chip.de/gimp-vektorgrafik-erstellen_30229</a></li>
 </ul>

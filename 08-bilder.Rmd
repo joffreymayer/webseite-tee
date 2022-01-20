@@ -93,11 +93,15 @@ Gemäss `Google Lighthouse`, gibt es nun ein neues Format, welches besser als `.
 
 ## Das `LCP`-Problem bei SEO-Smartphone-Optimierung
 
+> Das Problem?
+
 Da meine Webseiten häufig auf "Hero"-Images (= grosse, Full-Screen Bilder) basieren, um die Neugier des Besuchers sofort zu packen, habe ich jedoch ein `LCP`-Problem (= "largest contentful page"): Google meint, dass die Ladezeit für Smartphone-User hier zu lange geht.
 
 Es gibt hier viele "pro"-Methoden, um das Problem zu lösen (insbesondere mit sog. Caching-Strategien), allerdings sind diese sehr kompliziert zu implementieren.
 
 ![Hier das Problem illustriert: man sieht, dass bei der "Performance" die Werte gering sind. Dies ist der hohen Ladezeit des Hero-Images zuzuschreiben...](/bilder/bild-optimierung/lighthouse-report-ohne-hero-hack.png)
+
+> Die Lösung?
 
 Ich habe eine provisorische Lösung gefunden, die sich extrem schnell implementieren lässt und sofort Resultate bringt.
 
@@ -125,6 +129,22 @@ Ich habe eine provisorische Lösung gefunden, die sich extrem schnell implementi
 -<u>**Achtung**</u>: Damit der Trick funktioniert, **muss der Pfad des `background-image` == `scr` des `<img>`-Tags entsprechen**!!!
 
 ![Resultat, wenn du den Hack richtig implementierst. Schau, wie nun der Score der Performance von "81" auf "94" gestiegen ist! xD](/bilder/bild-optimierung/lighthouse-report-mit-hero-hack.png)
+
+## Responsive Background Images as Hero-Image
+
+> Das Problem? 
+
+Bisher konnte ich nur unterschiedliche Bilder für ein Hero-Image, indem ich `<figure>` in Kombination mit `<img>`-(Fallback-)Tag & `<source>`-(Media-Queries)-Tag verwendet habe.
+
+Ich habe jedoch eine neue Lösung gefunden, um DASSELBE Resultat zu erreichen, allerdings mit der CSS-Propert `background-image: url(...)`, damit die Background-Images RESPONSIVE werden (sehr nice!).
+
+Das Beste daran? **Es funktioniert sogar mit IE Browsern**! 
+
+> Die Lösung?
+
+Obwohl Media-Queries <u>nicht</u> als Inline-CSS im HTML-Dokument verwendet werden können (das war ursprünglich meine Lösung, um Background-Images responsive zu machen), kann es nun mittels einer sogenannten "CSS-Variablen" erreicht werden (= `var()`).
+
+- Lese die Antwort mit den meisten upvotes in [diesem Stack-Overflow](https://stackoverflow.com/questions/9808233/is-it-possible-to-put-css-media-rules-inline) thread, damit due verstehen kannst, wie ich das geschafft habe.
 
 ## Caching when dealing with Phones
 

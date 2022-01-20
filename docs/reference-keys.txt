@@ -74,6 +74,7 @@ strange-small-white-space-below-image-used-as-a-produkt-karte
 kompression
 das-neue-webp-format
 das-lcp-problem-bei-seo-smartphone-optimierung
+responsive-background-images-as-hero-image
 caching-when-dealing-with-phones
 svg-bilder
 implementierung-mit-figma
