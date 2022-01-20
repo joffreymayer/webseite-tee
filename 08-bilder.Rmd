@@ -91,6 +91,41 @@ Gemäss `Google Lighthouse`, gibt es nun ein neues Format, welches besser als `.
 
 ![Dieser Code sollte das `WebP`-Format für moderne Browser garantieren und ansonsten auf das `.jpeg`-Format zugreifen, wenn es nicht geht.](./bilder/bild-optimierung/html-code-webp.png)
 
+## Das `LCP`-Problem bei SEO-Smartphone-Optimierung
+
+Da meine Webseiten häufig auf "Hero"-Images (= grosse, Full-Screen Bilder) basieren, um die Neugier des Besuchers sofort zu packen, habe ich jedoch ein `LCP`-Problem (= "largest contentful page"): Google meint, dass die Ladezeit für Smartphone-User hier zu lange geht.
+
+Es gibt hier viele "pro"-Methoden, um das Problem zu lösen (insbesondere mit sog. Caching-Strategien), allerdings sind diese sehr kompliziert zu implementieren.
+
+![Hier das Problem illustriert: man sieht, dass bei der "Performance" die Werte gering sind. Dies ist der hohen Ladezeit des Hero-Images zuzuschreiben...](/bilder/bild-optimierung/lighthouse-report-ohne-hero-hack.png)
+
+Ich habe eine provisorische Lösung gefunden, die sich extrem schnell implementieren lässt und sofort Resultate bringt.
+
+- <u>Folgender Code sollte hierbei verwendet werden</u>:
+
+```
+<div class="showcase-wrapper">
+
+		<div class="showcase-content">
+  
+			<div class="showcase" style="background-image: url(bilder/monatlicher-klang-workshop/optimize-audio-netzleiste-6x.jpg);
+			background-size: cover;
+			background-position: center;">
+			  <img src="bilder/monatlicher-klang-workshop/optimize-audio-netzleiste-6x.jpg" alt="" style="display: none;"> <!-- This is the hack! -->
+			  <h1>Monatlicher <br> Workshop</h1>
+			  <button type="button">Tipps für eine bessere High-End Anlage.</button>
+			</div>
+		
+		</div>
+	</div> 
+```
+
+<mark>Hierbei verwende ich ein Background-Image via CSS UND gleichzeitig ein **`<img`-Tag mit `display: none` Attribut ür den Hack**. Dadurch wird nämlich das Bild mit höchster Priorität geladen - AKA *preloading the image* - ist jedoch wegen `display: none` unsichtbar.</mark>
+
+-<u>**Achtung**</u>: Damit der Trick funktioniert, **muss der Pfad des `background-image` == `scr` des `<img>`-Tags entsprechen**!!!
+
+![Resultat, wenn du den Hack richtig implementierst. Schau, wie nun der Score der Performance von "81" auf "94" gestiegen ist! xD](/bilder/bild-optimierung/lighthouse-report-mit-hero-hack.png)
+
 ## Caching when dealing with Phones
 
 Smartphones werden zunehmend der Standard der Webseiten-Branche. In 2020 hat Google sogar bei Webseiten eine sehr wichtige neue Richtlinie eingeführt, welche mit dem Slogan `Smartphones first` betitelt wurde. Somit muss ich nun vor allem die Optimierungs-Kriterien vor allem für Smartphones ausrichten. 
