@@ -97,7 +97,9 @@ Eines der effektivsten Mitteln, um einen User auf der Webseite zu behalten, sind
 
 > Das Problem mit Responive-Webseiten?
 
-Wenn du Hero-Images verwendest, dann kann es sein, dass die Bilder für Tablets & Smartphones falsch "ge-cropt" werden. Deshalb ist der Einsatz vom `picture`-Tag sehr empfehlenswert.
+Wenn du Hero-Images verwendest, dann kann es sein, dass die Bilder für Tablets & Smartphones falsch "ge-cropt" werden. 
+
+Deshalb ist der Einsatz vom `picture`-Tag sehr empfehlenswert. Das `<picture>`-Element ist sogar in der Lage dem Browser zu sagen, dass es eher ein Bild mit erhöhter Auflösung verwenden soll, wenn es z.B. Iphones mit Retina-Bildschirmen begegnet.
 
 > Die Lösung mit Responive-Webseiten?
 
