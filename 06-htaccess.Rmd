@@ -10,15 +10,71 @@ output: html_document
 Manchmal wirst du gezwungen sein, Server-Einstellungen vorzunehmen, beispielsweise:
 
 - Wenn ich den **Titel von HTML-Seiten umbenenne**. 
-  - <u>Problem</u>: Dies verändert die URL der Webseite, wodurch ich gezwungen werde, die ursprüngliche HTML-Seite - mit dem _alten_ Titel - zu redirecten (mit einer 301-Weiterleitung), ansosten **verlierst du den Page-Rank**.
+  - <u>Problem</u>: Dies verändert die URL der Webseite, wodurch ich gezwungen werde, die ursprüngliche HTML-Seite - mit dem _alten_ Titel - zu redirecten (mit einer **301-Weiterleitung**), ansosten **verlierst du den Page-Rank**.
 - Wenn ich **HTML-Seiten komplett von meiner Webseite lösche**, muss der Server eine 410-Error ("gone") oder 404-Error ("information not found") angeben.
   - <u>Problem</u>: Wenn ich der Google-Suchmaschine nicht explizit sage, dass ich gewisse HTML-Files von meiner Webseite gelöscht habe, dann wird es mich mit **schlechteren Rankings auf meiner Webseite** bestrafen.
   
 *Alle diese Dinge kannst du via einer `.htaccess`-Datei steuern. Es ist eine sehr mächtige Datei, welche nur auf dem Server ersichtlich ist*. 
 
 <u>Achtung</u>: Fehler im Code können dazu führen, dass deine gesamte Webseite crasht, deshalb ist hier vorsicht geboten!
+
+## 301 Weiterleitungen
+
+Es wird oftmals der Fall sein, dass du die URL von Webseiten modifizieren musst, wenn - beispielsweise - eine neue Genration vom Produkt auftaucht oder wenn alte Produkte in einen "history"-Ordner gelegt werden (statt von der Webseite zu löschen), etc...
+
+_In solchen Fällen musst du eine **301-Weiterleitung** vornehmen_.
+
+### Leerschläge in URL
+
+URLs mit Leerschläge enthalten nicht einfach einen " " (= Leerschlag) in der URL, sondern diese werden stattdessen mit einem `%20` substituiert. 
+
+_Das Problem ist - wenn du in einer `.htaccess`-Datei die Weiterleitung von `%20` vollziehen willst - dann wird es dies nicht verstehen, weil eine `.htaccess`-Datei eine "andere Sprache" (eine `.htaccess` versteht nur "regular expressions", kurz "regex") spricht, als die "Sprache", die in URLs gesprochen wird!_
+
+Die Lösung für die **Konvertierung zwischen einer URL & dem `.htaccess`** - habe ich dir mit Hilfe eines Beispiels aufgezeigt.
+
+- <u>Beispiel</u>: 
+  - Die HTML-Seite, welche nicht mehr gültig ist und weitergeleitet werden muss: `https://wwww.optimizeaudio.com/PDF/Preisliste%20Optimize.pdf` --> achte auf das `%20` in der URL, welche den Leerschlag repräsentiert. =)
+  - Die neue HTML-Seite, die aktuell von den Nutzern eingesehen werden kann und auf die die Weiterleitung "pointen" soll: `https://www.optimizeaudio.com/preisliste.html`
+
+- ***<u>Lösung</>***:
+
+```
+RewriteEngine On
+RewriteRule  ^PDF/Preisliste\sOptimize.pdf https://www.optimizeaudio.com/preisliste.html [R=301]
+```
+
+### Weiterleitung mit `+`-Zeichen in der URL
+
+Die `.htaccess`-Datei kann leider <u>keine</u> `+`-Zeichen erkennen. Deshalb musst du die es in eine "Sprache" übersetzen, welche die `.htaccess`-Datei versteht:
+
+- ***<u>Lösung</>***:
+
+```
+RewriteEngine On
+RewriteRule  ^exxeption-audio-streamer-sonos[\s+].html https://www.audiophil-dreams.com/exxeption-audio/sonos+/ [R=301]
+```
+
+*Achte darauf, dass das `+`-Zeichen in der URL nun durch `[\s+]` ersetzt wird*.
+
+## Caching 
+
+Insbesondere **bei Telefonen mit einer `3G`- oder `4G`-Verbindung**, ist es sehr empfehlenswert, eine sogenannte *Caching-Strategie* einzusetzen. 
+
+Dies kann über die `.htaccess`-Datei erstellt werden. **Der Vorteil ist, von schnelleren Webseite-Ladezeiten** zu profitieren. Als Konsequenz **landest du weiter oben in der Suchmaschine**, weil sich die Webseite-Ladezeit signifikant verbessert hat.
+
+### Beispiel Caching-Strategie
+
+Weil ich noch nie via `.htaccess`-Datei eine Caching-Strategie implementiert habe, werde ich mich in nächster Zeit mit folgendem Beispiel versuchen, diese aufzusetzen.
+
+- <u>Beispiel zur Implementierung einer Caching-Strategie</u>:
+
+![Hier ein Beispiel einer Caching-Strategie](./bilder/htaccess/caching-strat-example.png)
+
+### Dokumentation
+
+Bevor du das obige Beispiel implementierst, rate ich dir, [die offizielle Webseite](https://httpd.apache.org/docs/2.2/mod/mod_expires.html) zu lesen.
   
-### Lösche eine HTML-Seite von der Webseite (410-Error)
+## Lösche eine HTML-Seite von der Webseite (410-Error)
   
 Code, den ich in den Root-Folder meiner Webseite in der `.htaccess`-Datei eingeben sollte:
 

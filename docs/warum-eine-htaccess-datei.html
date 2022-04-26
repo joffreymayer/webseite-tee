@@ -24,7 +24,7 @@
 <meta name="author" content="Joffrey Anthony" />
 
 
-<meta name="date" content="2022-03-14" />
+<meta name="date" content="2022-04-26" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -136,7 +136,15 @@
 <li class="chapter" data-level="5.2" data-path="instagram.html"><a href="instagram.html#hintergrundfarbe"><i class="fa fa-check"></i><b>5.2</b> Hintergrundfarbe</a></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="warum-eine-htaccess-datei.html"><a href="warum-eine-htaccess-datei.html"><i class="fa fa-check"></i><b>6</b> Warum eine htaccess-Datei?</a><ul>
-<li class="chapter" data-level="6.0.1" data-path="warum-eine-htaccess-datei.html"><a href="warum-eine-htaccess-datei.html#lösche-eine-html-seite-von-der-webseite-410-error"><i class="fa fa-check"></i><b>6.0.1</b> Lösche eine HTML-Seite von der Webseite (410-Error)</a></li>
+<li class="chapter" data-level="6.1" data-path="warum-eine-htaccess-datei.html"><a href="warum-eine-htaccess-datei.html#weiterleitungen"><i class="fa fa-check"></i><b>6.1</b> 301 Weiterleitungen</a><ul>
+<li class="chapter" data-level="6.1.1" data-path="warum-eine-htaccess-datei.html"><a href="warum-eine-htaccess-datei.html#leerschläge-in-url"><i class="fa fa-check"></i><b>6.1.1</b> Leerschläge in URL</a></li>
+<li class="chapter" data-level="6.1.2" data-path="warum-eine-htaccess-datei.html"><a href="warum-eine-htaccess-datei.html#weiterleitung-mit--zeichen-in-der-url"><i class="fa fa-check"></i><b>6.1.2</b> Weiterleitung mit <code>+</code>-Zeichen in der URL</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="warum-eine-htaccess-datei.html"><a href="warum-eine-htaccess-datei.html#caching"><i class="fa fa-check"></i><b>6.2</b> Caching</a><ul>
+<li class="chapter" data-level="6.2.1" data-path="warum-eine-htaccess-datei.html"><a href="warum-eine-htaccess-datei.html#beispiel-caching-strategie"><i class="fa fa-check"></i><b>6.2.1</b> Beispiel Caching-Strategie</a></li>
+<li class="chapter" data-level="6.2.2" data-path="warum-eine-htaccess-datei.html"><a href="warum-eine-htaccess-datei.html#dokumentation"><i class="fa fa-check"></i><b>6.2.2</b> Dokumentation</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="warum-eine-htaccess-datei.html"><a href="warum-eine-htaccess-datei.html#lösche-eine-html-seite-von-der-webseite-410-error"><i class="fa fa-check"></i><b>6.3</b> Lösche eine HTML-Seite von der Webseite (410-Error)</a></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="visual-studio-code.html"><a href="visual-studio-code.html"><i class="fa fa-check"></i><b>7</b> Visual Studio Code</a><ul>
 <li class="chapter" data-level="7.1" data-path="visual-studio-code.html"><a href="visual-studio-code.html#allgemein-nützliches"><i class="fa fa-check"></i><b>7.1</b> Allgemein Nützliches</a><ul>
@@ -228,7 +236,7 @@
 <ul>
 <li>Wenn ich den <strong>Titel von HTML-Seiten umbenenne</strong>.
 <ul>
-<li><u>Problem</u>: Dies verändert die URL der Webseite, wodurch ich gezwungen werde, die ursprüngliche HTML-Seite - mit dem <em>alten</em> Titel - zu redirecten (mit einer 301-Weiterleitung), ansosten <strong>verlierst du den Page-Rank</strong>.</li>
+<li><u>Problem</u>: Dies verändert die URL der Webseite, wodurch ich gezwungen werde, die ursprüngliche HTML-Seite - mit dem <em>alten</em> Titel - zu redirecten (mit einer <strong>301-Weiterleitung</strong>), ansosten <strong>verlierst du den Page-Rank</strong>.</li>
 </ul></li>
 <li>Wenn ich <strong>HTML-Seiten komplett von meiner Webseite lösche</strong>, muss der Server eine 410-Error (“gone”) oder 404-Error (“information not found”) angeben.
 <ul>
@@ -237,8 +245,59 @@
 </ul>
 <p><em>Alle diese Dinge kannst du via einer <code>.htaccess</code>-Datei steuern. Es ist eine sehr mächtige Datei, welche nur auf dem Server ersichtlich ist</em>.</p>
 <p><u>Achtung</u>: Fehler im Code können dazu führen, dass deine gesamte Webseite crasht, deshalb ist hier vorsicht geboten!</p>
-<div id="lösche-eine-html-seite-von-der-webseite-410-error" class="section level3">
-<h3><span class="header-section-number">6.0.1</span> Lösche eine HTML-Seite von der Webseite (410-Error)</h3>
+<div id="weiterleitungen" class="section level2">
+<h2><span class="header-section-number">6.1</span> 301 Weiterleitungen</h2>
+<p>Es wird oftmals der Fall sein, dass du die URL von Webseiten modifizieren musst, wenn - beispielsweise - eine neue Genration vom Produkt auftaucht oder wenn alte Produkte in einen “history”-Ordner gelegt werden (statt von der Webseite zu löschen), etc…</p>
+<p><em>In solchen Fällen musst du eine <strong>301-Weiterleitung</strong> vornehmen</em>.</p>
+<div id="leerschläge-in-url" class="section level3">
+<h3><span class="header-section-number">6.1.1</span> Leerschläge in URL</h3>
+<p>URLs mit Leerschläge enthalten nicht einfach einen " " (= Leerschlag) in der URL, sondern diese werden stattdessen mit einem <code>%20</code> substituiert.</p>
+<p><em>Das Problem ist - wenn du in einer <code>.htaccess</code>-Datei die Weiterleitung von <code>%20</code> vollziehen willst - dann wird es dies nicht verstehen, weil eine <code>.htaccess</code>-Datei eine “andere Sprache” (eine <code>.htaccess</code> versteht nur “regular expressions”, kurz “regex”) spricht, als die “Sprache”, die in URLs gesprochen wird!</em></p>
+<p>Die Lösung für die <strong>Konvertierung zwischen einer URL &amp; dem <code>.htaccess</code></strong> - habe ich dir mit Hilfe eines Beispiels aufgezeigt.</p>
+<ul>
+<li><u>Beispiel</u>:
+<ul>
+<li>Die HTML-Seite, welche nicht mehr gültig ist und weitergeleitet werden muss: <code>https://wwww.optimizeaudio.com/PDF/Preisliste%20Optimize.pdf</code> –&gt; achte auf das <code>%20</code> in der URL, welche den Leerschlag repräsentiert. =)</li>
+<li>Die neue HTML-Seite, die aktuell von den Nutzern eingesehen werden kann und auf die die Weiterleitung “pointen” soll: <code>https://www.optimizeaudio.com/preisliste.html</code></li>
+</ul></li>
+<li><strong><em><u>Lösung&lt;/&gt;</em></strong>:</li>
+</ul>
+<pre><code>RewriteEngine On
+RewriteRule  ^PDF/Preisliste\sOptimize.pdf https://www.optimizeaudio.com/preisliste.html [R=301]</code></pre>
+</div>
+<div id="weiterleitung-mit--zeichen-in-der-url" class="section level3">
+<h3><span class="header-section-number">6.1.2</span> Weiterleitung mit <code>+</code>-Zeichen in der URL</h3>
+<p>Die <code>.htaccess</code>-Datei kann leider <u>keine</u> <code>+</code>-Zeichen erkennen. Deshalb musst du die es in eine “Sprache” übersetzen, welche die <code>.htaccess</code>-Datei versteht:</p>
+<ul>
+<li><strong><em><u>Lösung&lt;/&gt;</em></strong>:</li>
+</ul>
+<pre><code>RewriteEngine On
+RewriteRule  ^exxeption-audio-streamer-sonos[\s+].html https://www.audiophil-dreams.com/exxeption-audio/sonos+/ [R=301]</code></pre>
+<p><em>Achte darauf, dass das <code>+</code>-Zeichen in der URL nun durch <code>[\s+]</code> ersetzt wird</em>.</p>
+</div>
+</div>
+<div id="caching" class="section level2">
+<h2><span class="header-section-number">6.2</span> Caching</h2>
+<p>Insbesondere <strong>bei Telefonen mit einer <code>3G</code>- oder <code>4G</code>-Verbindung</strong>, ist es sehr empfehlenswert, eine sogenannte <em>Caching-Strategie</em> einzusetzen.</p>
+<p>Dies kann über die <code>.htaccess</code>-Datei erstellt werden. <strong>Der Vorteil ist, von schnelleren Webseite-Ladezeiten</strong> zu profitieren. Als Konsequenz <strong>landest du weiter oben in der Suchmaschine</strong>, weil sich die Webseite-Ladezeit signifikant verbessert hat.</p>
+<div id="beispiel-caching-strategie" class="section level3">
+<h3><span class="header-section-number">6.2.1</span> Beispiel Caching-Strategie</h3>
+<p>Weil ich noch nie via <code>.htaccess</code>-Datei eine Caching-Strategie implementiert habe, werde ich mich in nächster Zeit mit folgendem Beispiel versuchen, diese aufzusetzen.</p>
+<ul>
+<li><u>Beispiel zur Implementierung einer Caching-Strategie</u>:</li>
+</ul>
+<div class="figure">
+<img src="./bilder/htaccess/caching-strat-example.png" alt="" />
+<p class="caption">Hier ein Beispiel einer Caching-Strategie</p>
+</div>
+</div>
+<div id="dokumentation" class="section level3">
+<h3><span class="header-section-number">6.2.2</span> Dokumentation</h3>
+<p>Bevor du das obige Beispiel implementierst, rate ich dir, <a href="https://httpd.apache.org/docs/2.2/mod/mod_expires.html">die offizielle Webseite</a> zu lesen.</p>
+</div>
+</div>
+<div id="lösche-eine-html-seite-von-der-webseite-410-error" class="section level2">
+<h2><span class="header-section-number">6.3</span> Lösche eine HTML-Seite von der Webseite (410-Error)</h2>
 <p>Code, den ich in den Root-Folder meiner Webseite in der <code>.htaccess</code>-Datei eingeben sollte:</p>
 <pre><code>Redirect gone /path/path/folder/
 ErrorDocument 410 default</code></pre>
