@@ -36,7 +36,7 @@ Die Lösung für die **Konvertierung zwischen einer URL & dem `.htaccess`** - ha
   - Die HTML-Seite, welche nicht mehr gültig ist und weitergeleitet werden muss: `https://wwww.optimizeaudio.com/PDF/Preisliste%20Optimize.pdf` --> achte auf das `%20` in der URL, welche den Leerschlag repräsentiert. =)
   - Die neue HTML-Seite, die aktuell von den Nutzern eingesehen werden kann und auf die die Weiterleitung "pointen" soll: `https://www.optimizeaudio.com/preisliste.html`
 
-- ***<u>Lösung</>***:
+- ***<u>Lösung</u>***:
 
 ```
 RewriteEngine On
