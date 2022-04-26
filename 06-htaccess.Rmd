@@ -47,7 +47,7 @@ RewriteRule  ^PDF/Preisliste\sOptimize.pdf https://www.optimizeaudio.com/preisli
 
 Die `.htaccess`-Datei kann leider <u>keine</u> `+`-Zeichen erkennen. Deshalb musst du die es in eine "Sprache" übersetzen, welche die `.htaccess`-Datei versteht:
 
-- ***<u>Lösung</>***:
+- ***<u>Lösung</u>***:
 
 ```
 RewriteEngine On
