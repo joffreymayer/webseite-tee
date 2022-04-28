@@ -1,11 +1,10 @@
----
-title: "htaccess"
-author: "Joffrey Mayer"
-date: "10/15/2021"
-output: html_document
----
+# Die htaccess-Datei
 
-# Warum eine htaccess-Datei?
+Das ist eine Datei auf dem **Web**-Server, welcher dir erlaubt, in die Kommunikation zwischen dem "Client" - dh dem Computer deiner Internetbesucher - und deinem (Web-) Server zu steuern mit diversen Funktionen.
+
+- <u>Key</u>: Die `.htaccess`-Datei kann man umbennen. Häufig wird sie dann **congig**-Datei gennannt!
+
+## Warum eine htaccess-Datei?
 
 Manchmal wirst du gezwungen sein, Server-Einstellungen vorzunehmen, beispielsweise:
 
@@ -13,6 +12,9 @@ Manchmal wirst du gezwungen sein, Server-Einstellungen vorzunehmen, beispielswei
   - <u>Problem</u>: Dies verändert die URL der Webseite, wodurch ich gezwungen werde, die ursprüngliche HTML-Seite - mit dem _alten_ Titel - zu redirecten (mit einer **301-Weiterleitung**), ansosten **verlierst du den Page-Rank**.
 - Wenn ich **HTML-Seiten komplett von meiner Webseite lösche**, muss der Server eine 410-Error ("gone") oder 404-Error ("information not found") angeben.
   - <u>Problem</u>: Wenn ich der Google-Suchmaschine nicht explizit sage, dass ich gewisse HTML-Files von meiner Webseite gelöscht habe, dann wird es mich mit **schlechteren Rankings auf meiner Webseite** bestrafen.
+- Du kannst damit auch sogenannten "dynamischen Content" (= auf jedem Computer deiner Webseiten-Besucher gibt es Teile, welche nicht derselbe Inhalt sind, dh "dynamisch" ist) generieren.
+  - <u>Beispiel</u>: Eine Uhr, welche _immer_ die richtige Zeit angibt, sowohl für einen Besucher aus der USA, wie auch für ein Besucher aus der Schweiz :D
+  - <u>Dokumentation</u>: https://httpd.apache.org/docs/2.0/howto/htaccess.html
   
 *Alle diese Dinge kannst du via einer `.htaccess`-Datei steuern. Es ist eine sehr mächtige Datei, welche nur auf dem Server ersichtlich ist*. 
 
